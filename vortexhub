@@ -1,0 +1,3003 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local mainmain = Instance.new("ScreenGui")
+local mainhold = Instance.new("Frame")
+local thold = Instance.new("Frame")
+local home = Instance.new("Frame")
+local user = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UIGradient = Instance.new("UIGradient")
+local TextLabel_2 = Instance.new("TextLabel")
+local UIGradient_2 = Instance.new("UIGradient")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_2 = Instance.new("UICorner")
+local exec = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local UIGradient_3 = Instance.new("UIGradient")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local UICorner_4 = Instance.new("UICorner")
+local ImageLabel_6 = Instance.new("ImageLabel")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local minimize = Instance.new("TextButton")
+local destroy = Instance.new("TextButton")
+local title = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local UIGradient_4 = Instance.new("UIGradient")
+local fun = Instance.new("Frame")
+local back = Instance.new("TextButton")
+local fetitle = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local UIGradient_5 = Instance.new("UIGradient")
+local fewalk = Instance.new("TextLabel")
+local fejump = Instance.new("TextLabel")
+local jumpbox = Instance.new("TextBox")
+local UICorner_6 = Instance.new("UICorner")
+local walkslider = Instance.new("Frame")
+local fill = Instance.new("Frame")
+local trigger = Instance.new("TextButton")
+local universal = Instance.new("Frame")
+local back_2 = Instance.new("TextButton")
+local unititle = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local UIGradient_6 = Instance.new("UIGradient")
+local uniscroll = Instance.new("ScrollingFrame")
+local infinitey = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local exware = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local zuremod = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local UIListLayout = Instance.new("UIListLayout")
+local prisonware = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local zbloxfruits = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local solsrng = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local zbuild = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local cusduels = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local nexam = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local bsearch = Instance.new("TextBox")
+local UICorner_16 = Instance.new("UICorner")
+local ImageLabel_7 = Instance.new("ImageLabel")
+local atitle = Instance.new("TextLabel")
+local taskbar = Instance.new("Frame")
+local title_2 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local UIGradient_7 = Instance.new("UIGradient")
+local buttonhold = Instance.new("Frame")
+local funbutton = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local ahomebutton = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local unibutton = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local UIPadding = Instance.new("UIPadding")
+local open = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+
+--Properties:
+
+mainmain.Name = "mainmain"
+mainmain.Parent = game.CoreGui
+mainmain.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+mainhold.Name = "mainhold"
+mainhold.Parent = mainmain
+mainhold.AnchorPoint = Vector2.new(0.5, 0.5)
+mainhold.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+mainhold.BackgroundTransparency = 1.000
+mainhold.BorderColor3 = Color3.fromRGB(0, 0, 0)
+mainhold.BorderSizePixel = 0
+mainhold.Position = UDim2.new(0.5, 50, 0.5, 0)
+mainhold.Size = UDim2.new(0, 342, 0, 285)
+
+thold.Name = "thold"
+thold.Parent = mainhold
+thold.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+thold.BorderColor3 = Color3.fromRGB(27, 42, 53)
+thold.BorderSizePixel = 0
+thold.Position = UDim2.new(-0.00692409929, 0, 0, 0)
+thold.Size = UDim2.new(0, 342, 0, 285)
+
+home.Name = "home"
+home.Parent = thold
+home.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+home.BorderColor3 = Color3.fromRGB(27, 42, 53)
+home.BorderSizePixel = 0
+home.Position = UDim2.new(-0.00141023332, 0, 0.00346401287, 0)
+home.Size = UDim2.new(0, 342, 0, 285)
+
+user.Name = "user"
+user.Parent = home
+user.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+user.BorderColor3 = Color3.fromRGB(27, 42, 53)
+user.Position = UDim2.new(0.0847953185, 0, 0.147368416, 0)
+user.Size = UDim2.new(0, 281, 0, 91)
+
+UICorner.Parent = user
+
+TextLabel.Parent = user
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.359430611, 0, 0.230769232, 0)
+TextLabel.Size = UDim2.new(0, 143, 0, 32)
+TextLabel.Font = Enum.Font.GothamMedium
+TextLabel.Text = "Welcome, (User here)"
+TextLabel.TextColor3 = Color3.fromRGB(0, 255, 234)
+TextLabel.TextSize = 14.000
+
+UIGradient.Parent = TextLabel
+
+TextLabel_2.Parent = user
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.359430611, 0, 0.439560443, 0)
+TextLabel_2.Size = UDim2.new(0, 143, 0, 32)
+TextLabel_2.Font = Enum.Font.GothamMedium
+TextLabel_2.Text = "@(user here)"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 255, 234)
+TextLabel_2.TextSize = 14.000
+
+UIGradient_2.Parent = TextLabel_2
+
+ImageLabel.Parent = user
+ImageLabel.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+ImageLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ImageLabel.Position = UDim2.new(0.0264130179, 0, 0.073333405, 0)
+ImageLabel.Size = UDim2.new(0, 77, 0, 77)
+
+UICorner_2.CornerRadius = UDim.new(10, 0)
+UICorner_2.Parent = ImageLabel
+
+exec.Name = "exec"
+exec.Parent = home
+exec.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+exec.BorderColor3 = Color3.fromRGB(27, 42, 53)
+exec.Position = UDim2.new(0.0847953185, 0, 0.515789449, 0)
+exec.Size = UDim2.new(0, 281, 0, 91)
+
+UICorner_3.Parent = exec
+
+TextLabel_3.Parent = exec
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Size = UDim2.new(0, 160, 0, 32)
+TextLabel_3.Font = Enum.Font.GothamMedium
+TextLabel_3.Text = "SUPPORTED EXECUTORS"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 12.000
+TextLabel_3.TextWrapped = true
+
+UIGradient_3.Parent = TextLabel_3
+
+ImageLabel_2.Parent = exec
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.0249110311, 0, 0.35164836, 0)
+ImageLabel_2.Size = UDim2.new(0, 45, 0, 43)
+ImageLabel_2.Image = "rbxassetid://18383113478"
+
+ImageLabel_3.Parent = exec
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Position = UDim2.new(0.234875441, 0, 0.35164836, 0)
+ImageLabel_3.Size = UDim2.new(0, 45, 0, 43)
+ImageLabel_3.Image = "rbxassetid://18383495417"
+
+ImageLabel_4.Parent = exec
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BorderSizePixel = 0
+ImageLabel_4.Position = UDim2.new(0.419928819, 0, 0.35164836, 0)
+ImageLabel_4.Size = UDim2.new(0, 45, 0, 43)
+ImageLabel_4.Image = "rbxassetid://18383552231"
+
+ImageLabel_5.Parent = exec
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.BackgroundTransparency = 1.000
+ImageLabel_5.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.BorderSizePixel = 0
+ImageLabel_5.Position = UDim2.new(0.604982197, 0, 0.35164836, 0)
+ImageLabel_5.Size = UDim2.new(0, 45, 0, 43)
+ImageLabel_5.Image = "rbxassetid://18389868487"
+
+UICorner_4.CornerRadius = UDim.new(1, 0)
+UICorner_4.Parent = ImageLabel_5
+
+ImageLabel_6.Parent = exec
+ImageLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_6.BackgroundTransparency = 1.000
+ImageLabel_6.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_6.BorderSizePixel = 0
+ImageLabel_6.Position = UDim2.new(0.77935946, 0, 0.274725288, 0)
+ImageLabel_6.Size = UDim2.new(0, 62, 0, 56)
+ImageLabel_6.Image = "rbxassetid://18389895498"
+
+UICorner_5.CornerRadius = UDim.new(1, 0)
+UICorner_5.Parent = ImageLabel_6
+
+TextLabel_4.Parent = home
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0, 0, 0.89122808, 0)
+TextLabel_4.Size = UDim2.new(0, 342, 0, 17)
+TextLabel_4.Font = Enum.Font.Gotham
+TextLabel_4.Text = "WHERE DREAMS ARE MADE"
+TextLabel_4.TextColor3 = Color3.fromRGB(80, 80, 80)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+minimize.Name = "minimize"
+minimize.Parent = home
+minimize.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+minimize.BackgroundTransparency = 1.000
+minimize.BorderColor3 = Color3.fromRGB(0, 0, 0)
+minimize.BorderSizePixel = 0
+minimize.Position = UDim2.new(0.81145525, 0, 0, 0)
+minimize.Size = UDim2.new(0, 32, 0, 24)
+minimize.Font = Enum.Font.GothamBold
+minimize.Text = "-"
+minimize.TextColor3 = Color3.fromRGB(255, 255, 255)
+minimize.TextScaled = true
+minimize.TextSize = 14.000
+minimize.TextWrapped = true
+
+destroy.Name = "destroy"
+destroy.Parent = home
+destroy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+destroy.BackgroundTransparency = 1.000
+destroy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+destroy.BorderSizePixel = 0
+destroy.Position = UDim2.new(0.905022502, 0, 0, 0)
+destroy.Size = UDim2.new(0, 32, 0, 24)
+destroy.Font = Enum.Font.GothamBold
+destroy.Text = "x"
+destroy.TextColor3 = Color3.fromRGB(255, 255, 255)
+destroy.TextSize = 14.000
+destroy.TextWrapped = true
+
+title.Name = "title"
+title.Parent = home
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.BackgroundTransparency = 1.000
+title.BorderColor3 = Color3.fromRGB(27, 42, 53)
+title.BorderSizePixel = 0
+title.Size = UDim2.new(0, 81, 0, 32)
+title.Font = Enum.Font.GothamMedium
+title.Text = "VORTEX"
+title.TextColor3 = Color3.fromRGB(255, 255, 255)
+title.TextSize = 14.000
+
+TextLabel_5.Parent = title
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.89823705, 0, 0, 0)
+TextLabel_5.Size = UDim2.new(0, 40, 0, 32)
+TextLabel_5.Font = Enum.Font.GothamMedium
+TextLabel_5.Text = "HOME"
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 255, 234)
+TextLabel_5.TextSize = 14.000
+
+UIGradient_4.Parent = TextLabel_5
+
+fun.Name = "fun"
+fun.Parent = thold
+fun.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+fun.BorderColor3 = Color3.fromRGB(0, 0, 0)
+fun.BorderSizePixel = 0
+fun.Position = UDim2.new(0.00107793079, 0, 0, 0)
+fun.Size = UDim2.new(0, 342, 0, 285)
+fun.Visible = false
+
+back.Name = "back"
+back.Parent = fun
+back.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+back.BackgroundTransparency = 1.000
+back.BorderColor3 = Color3.fromRGB(0, 0, 0)
+back.BorderSizePixel = 0
+back.Position = UDim2.new(0.869300902, 0, -0.003508772, 0)
+back.Size = UDim2.new(0, 42, 0, 23)
+back.Font = Enum.Font.GothamBold
+back.Text = "<--"
+back.TextColor3 = Color3.fromRGB(255, 255, 255)
+back.TextScaled = true
+back.TextSize = 14.000
+back.TextWrapped = true
+
+fetitle.Name = "fetitle"
+fetitle.Parent = fun
+fetitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fetitle.BackgroundTransparency = 1.000
+fetitle.BorderColor3 = Color3.fromRGB(27, 42, 53)
+fetitle.BorderSizePixel = 0
+fetitle.Position = UDim2.new(-0.0704517514, 0, -0.003508772, 0)
+fetitle.Size = UDim2.new(0, 210, 0, 32)
+fetitle.Font = Enum.Font.GothamMedium
+fetitle.Text = "WELCOME TO VORTEX "
+fetitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+fetitle.TextSize = 14.000
+
+TextLabel_6.Parent = fetitle
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.829304159, 0, 0, 0)
+TextLabel_6.Size = UDim2.new(0, 40, 0, 32)
+TextLabel_6.Font = Enum.Font.GothamMedium
+TextLabel_6.Text = "FUN"
+TextLabel_6.TextColor3 = Color3.fromRGB(0, 255, 234)
+TextLabel_6.TextSize = 14.000
+
+UIGradient_5.Parent = TextLabel_6
+
+fewalk.Name = "fewalk"
+fewalk.Parent = fun
+fewalk.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fewalk.BackgroundTransparency = 1.000
+fewalk.BorderColor3 = Color3.fromRGB(27, 42, 53)
+fewalk.BorderSizePixel = 0
+fewalk.Position = UDim2.new(0.0439177491, 0, 0.13333334, 0)
+fewalk.Size = UDim2.new(0, 97, 0, 32)
+fewalk.Font = Enum.Font.GothamMedium
+fewalk.Text = "WALKSPEED"
+fewalk.TextColor3 = Color3.fromRGB(255, 255, 255)
+fewalk.TextSize = 14.000
+
+fejump.Name = "fejump"
+fejump.Parent = fun
+fejump.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fejump.BackgroundTransparency = 1.000
+fejump.BorderColor3 = Color3.fromRGB(27, 42, 53)
+fejump.BorderSizePixel = 0
+fejump.Position = UDim2.new(0.0585891083, 0, 0.245614037, 0)
+fejump.Size = UDim2.new(0, 91, 0, 32)
+fejump.Font = Enum.Font.GothamMedium
+fejump.Text = "JUMP POWER"
+fejump.TextColor3 = Color3.fromRGB(255, 255, 255)
+fejump.TextSize = 14.000
+
+jumpbox.Name = "jumpbox"
+jumpbox.Parent = fun
+jumpbox.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+jumpbox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+jumpbox.BorderSizePixel = 0
+jumpbox.Position = UDim2.new(0.363636404, 0, 0.263157904, 0)
+jumpbox.Size = UDim2.new(0, 200, 0, 23)
+jumpbox.Font = Enum.Font.Gotham
+jumpbox.Text = "50"
+jumpbox.TextColor3 = Color3.fromRGB(255, 255, 255)
+jumpbox.TextSize = 14.000
+
+UICorner_6.CornerRadius = UDim.new(0, 4)
+UICorner_6.Parent = jumpbox
+
+walkslider.Name = "walkslider"
+walkslider.Parent = fun
+walkslider.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+walkslider.BorderColor3 = Color3.fromRGB(0, 0, 0)
+walkslider.BorderSizePixel = 0
+walkslider.Position = UDim2.new(0.362573087, 0, 0.164912283, 0)
+walkslider.Size = UDim2.new(0, 200, 0, 13)
+
+fill.Name = "fill"
+fill.Parent = walkslider
+fill.BackgroundColor3 = Color3.fromRGB(0, 255, 234)
+fill.BorderColor3 = Color3.fromRGB(0, 0, 0)
+fill.BorderSizePixel = 0
+fill.Size = UDim2.new(0, 8, 0, 13)
+
+trigger.Name = "trigger"
+trigger.Parent = walkslider
+trigger.AnchorPoint = Vector2.new(0, 0.5)
+trigger.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+trigger.BackgroundTransparency = 1.000
+trigger.BorderColor3 = Color3.fromRGB(0, 0, 0)
+trigger.BorderSizePixel = 0
+trigger.Position = UDim2.new(0, 0, 0.5, 0)
+trigger.Size = UDim2.new(1, 0, 1, 0)
+trigger.Font = Enum.Font.SourceSans
+trigger.Text = ""
+trigger.TextColor3 = Color3.fromRGB(0, 0, 0)
+trigger.TextSize = 14.000
+
+universal.Name = "universal"
+universal.Parent = thold
+universal.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+universal.BorderColor3 = Color3.fromRGB(0, 0, 0)
+universal.BorderSizePixel = 0
+universal.Position = UDim2.new(0.00107793079, 0, 0, 0)
+universal.Size = UDim2.new(0, 342, 0, 285)
+universal.Visible = false
+
+back_2.Name = "back"
+back_2.Parent = universal
+back_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+back_2.BackgroundTransparency = 1.000
+back_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+back_2.BorderSizePixel = 0
+back_2.Position = UDim2.new(0.869300902, 0, -0.003508772, 0)
+back_2.Size = UDim2.new(0, 42, 0, 23)
+back_2.Font = Enum.Font.GothamBold
+back_2.Text = "<--"
+back_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+back_2.TextScaled = true
+back_2.TextSize = 14.000
+back_2.TextWrapped = true
+
+unititle.Name = "unititle"
+unititle.Parent = universal
+unititle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+unititle.BackgroundTransparency = 1.000
+unititle.BorderColor3 = Color3.fromRGB(27, 42, 53)
+unititle.BorderSizePixel = 0
+unititle.Position = UDim2.new(-0.0704517514, 0, -0.003508772, 0)
+unititle.Size = UDim2.new(0, 210, 0, 32)
+unititle.Font = Enum.Font.GothamMedium
+unititle.Text = "WELCOME TO VORTEX "
+unititle.TextColor3 = Color3.fromRGB(255, 255, 255)
+unititle.TextSize = 14.000
+
+TextLabel_7.Parent = unititle
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.929304123, 0, 0, 0)
+TextLabel_7.Size = UDim2.new(0, 40, 0, 32)
+TextLabel_7.Font = Enum.Font.GothamMedium
+TextLabel_7.Text = "UNIVERSAL"
+TextLabel_7.TextColor3 = Color3.fromRGB(0, 255, 234)
+TextLabel_7.TextSize = 14.000
+
+UIGradient_6.Parent = TextLabel_7
+
+uniscroll.Name = "uniscroll"
+uniscroll.Parent = universal
+uniscroll.Active = true
+uniscroll.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+uniscroll.BorderColor3 = Color3.fromRGB(0, 0, 0)
+uniscroll.BorderSizePixel = 0
+uniscroll.Position = UDim2.new(0.023391813, 0, 0.308771938, 0)
+uniscroll.Size = UDim2.new(0, 324, 0, 191)
+uniscroll.CanvasSize = UDim2.new(0, 0, 1, 0)
+uniscroll.ScrollBarThickness = 7
+
+infinitey.Name = "infinitey"
+infinitey.Parent = uniscroll
+infinitey.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+infinitey.BorderColor3 = Color3.fromRGB(0, 0, 0)
+infinitey.BorderSizePixel = 0
+infinitey.Position = UDim2.new(0.0910493806, 0, 0.0411522649, 0)
+infinitey.Size = UDim2.new(0, 267, 0, 23)
+infinitey.Font = Enum.Font.Gotham
+infinitey.Text = "INFINITE YIELD - UNIVERSAL ADMIN COMMANDS"
+infinitey.TextColor3 = Color3.fromRGB(255, 255, 255)
+infinitey.TextSize = 10.000
+infinitey.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 4)
+UICorner_7.Parent = infinitey
+
+exware.Name = "exware"
+exware.Parent = uniscroll
+exware.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+exware.BorderColor3 = Color3.fromRGB(0, 0, 0)
+exware.BorderSizePixel = 0
+exware.Position = UDim2.new(0.0432098769, 0, 0.0617283955, 0)
+exware.Size = UDim2.new(0, 267, 0, 23)
+exware.Font = Enum.Font.Gotham
+exware.Text = "EXWARE - BEST ARSENAL SCRIPT"
+exware.TextColor3 = Color3.fromRGB(255, 255, 255)
+exware.TextSize = 12.000
+exware.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 4)
+UICorner_8.Parent = exware
+
+zuremod.Name = "zuremod"
+zuremod.Parent = uniscroll
+zuremod.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+zuremod.BorderColor3 = Color3.fromRGB(0, 0, 0)
+zuremod.BorderSizePixel = 0
+zuremod.Position = UDim2.new(0.0432098769, 0, 0.0617283955, 0)
+zuremod.Size = UDim2.new(0, 267, 0, 23)
+zuremod.Font = Enum.Font.Gotham
+zuremod.Text = "AZURE MODDED - DAHOOD SCRIPT (OP)"
+zuremod.TextColor3 = Color3.fromRGB(255, 255, 255)
+zuremod.TextSize = 12.000
+zuremod.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 4)
+UICorner_9.Parent = zuremod
+
+UIListLayout.Parent = uniscroll
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.Padding = UDim.new(0, 10)
+
+prisonware.Name = "prisonware"
+prisonware.Parent = uniscroll
+prisonware.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+prisonware.BorderColor3 = Color3.fromRGB(0, 0, 0)
+prisonware.BorderSizePixel = 0
+prisonware.Position = UDim2.new(0.0879629627, 0, 0.619433224, 0)
+prisonware.Size = UDim2.new(0, 267, 0, 23)
+prisonware.Font = Enum.Font.Gotham
+prisonware.Text = "PRISONWARE - PRISON LIFE SCRIPT"
+prisonware.TextColor3 = Color3.fromRGB(255, 255, 255)
+prisonware.TextSize = 12.000
+prisonware.TextWrapped = true
+
+UICorner_10.CornerRadius = UDim.new(0, 4)
+UICorner_10.Parent = prisonware
+
+zbloxfruits.Name = "zbloxfruits"
+zbloxfruits.Parent = uniscroll
+zbloxfruits.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+zbloxfruits.BorderColor3 = Color3.fromRGB(0, 0, 0)
+zbloxfruits.BorderSizePixel = 0
+zbloxfruits.Position = UDim2.new(0.0879629627, 0, 0.619433224, 0)
+zbloxfruits.Size = UDim2.new(0, 267, 0, 23)
+zbloxfruits.Font = Enum.Font.Gotham
+zbloxfruits.Text = "SPEED HUB V3 - BLOXFRUITS SCRIPT"
+zbloxfruits.TextColor3 = Color3.fromRGB(255, 255, 255)
+zbloxfruits.TextSize = 12.000
+zbloxfruits.TextWrapped = true
+
+UICorner_11.CornerRadius = UDim.new(0, 4)
+UICorner_11.Parent = zbloxfruits
+
+solsrng.Name = "sols rng"
+solsrng.Parent = uniscroll
+solsrng.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+solsrng.BorderColor3 = Color3.fromRGB(0, 0, 0)
+solsrng.BorderSizePixel = 0
+solsrng.Position = UDim2.new(0.0432098769, 0, 0.0617283955, 0)
+solsrng.Size = UDim2.new(0, 267, 0, 23)
+solsrng.Font = Enum.Font.Gotham
+solsrng.Text = "SOLS MENU - SOLS RNG SCRIPT"
+solsrng.TextColor3 = Color3.fromRGB(255, 255, 255)
+solsrng.TextSize = 12.000
+solsrng.TextWrapped = true
+
+UICorner_12.CornerRadius = UDim.new(0, 4)
+UICorner_12.Parent = solsrng
+
+zbuild.Name = "zbuild"
+zbuild.Parent = uniscroll
+zbuild.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+zbuild.BorderColor3 = Color3.fromRGB(0, 0, 0)
+zbuild.BorderSizePixel = 0
+zbuild.Position = UDim2.new(0.0910493806, 0, 0.528795838, 0)
+zbuild.Size = UDim2.new(0, 267, 0, 23)
+zbuild.Font = Enum.Font.Gotham
+zbuild.Text = "BUILD A BOAT.EXE - BUILD A BOAT FOR TREASURE "
+zbuild.TextColor3 = Color3.fromRGB(255, 255, 255)
+zbuild.TextSize = 10.000
+zbuild.TextWrapped = true
+
+UICorner_13.CornerRadius = UDim.new(0, 4)
+UICorner_13.Parent = zbuild
+
+cusduels.Name = "cusduels"
+cusduels.Parent = uniscroll
+cusduels.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+cusduels.BorderColor3 = Color3.fromRGB(0, 0, 0)
+cusduels.BorderSizePixel = 0
+cusduels.Position = UDim2.new(0.0432098769, 0, 0.0617283955, 0)
+cusduels.Size = UDim2.new(0, 267, 0, 23)
+cusduels.Font = Enum.Font.Gotham
+cusduels.Text = "CUSTOM DUELS -  ROBLOX REACH SCRIPT"
+cusduels.TextColor3 = Color3.fromRGB(255, 255, 255)
+cusduels.TextSize = 12.000
+cusduels.TextWrapped = true
+
+UICorner_14.CornerRadius = UDim.new(0, 4)
+UICorner_14.Parent = cusduels
+
+nexam.Name = "nexam"
+nexam.Parent = uniscroll
+nexam.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+nexam.BorderColor3 = Color3.fromRGB(0, 0, 0)
+nexam.BorderSizePixel = 0
+nexam.Position = UDim2.new(0.0432098769, 0, 0.0617283955, 0)
+nexam.Size = UDim2.new(0, 267, 0, 23)
+nexam.Font = Enum.Font.Gotham
+nexam.Text = "NEXAM - ROBLOX BLADE BALL SCRIPT "
+nexam.TextColor3 = Color3.fromRGB(255, 255, 255)
+nexam.TextSize = 12.000
+nexam.TextWrapped = true
+
+UICorner_15.CornerRadius = UDim.new(0, 4)
+UICorner_15.Parent = nexam
+
+bsearch.Name = "bsearch"
+bsearch.Parent = universal
+bsearch.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+bsearch.BorderColor3 = Color3.fromRGB(0, 0, 0)
+bsearch.BorderSizePixel = 0
+bsearch.Position = UDim2.new(0.200130001, 0, 0.199460208, 0)
+bsearch.Size = UDim2.new(0, 200, 0, 23)
+bsearch.Font = Enum.Font.Gotham
+bsearch.Text = ""
+bsearch.TextColor3 = Color3.fromRGB(255, 255, 255)
+bsearch.TextSize = 14.000
+
+UICorner_16.CornerRadius = UDim.new(0, 4)
+UICorner_16.Parent = bsearch
+
+ImageLabel_7.Parent = bsearch
+ImageLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_7.BackgroundTransparency = 1.000
+ImageLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_7.BorderSizePixel = 0
+ImageLabel_7.Position = UDim2.new(1.02029657, 0, 0.0416666679, 0)
+ImageLabel_7.Size = UDim2.new(0, 23, 0, 21)
+ImageLabel_7.Image = "rbxassetid://18400800878"
+
+atitle.Name = "atitle"
+atitle.Parent = universal
+atitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+atitle.BackgroundTransparency = 1.000
+atitle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+atitle.BorderSizePixel = 0
+atitle.Position = UDim2.new(0.227663994, 0, 0.124236524, 0)
+atitle.Size = UDim2.new(0, 185, 0, 15)
+atitle.Font = Enum.Font.GothamBold
+atitle.Text = "WELCOME TO VORTEXHUB"
+atitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+atitle.TextSize = 14.000
+
+taskbar.Name = "taskbar"
+taskbar.Parent = mainhold
+taskbar.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+taskbar.BorderColor3 = Color3.fromRGB(27, 42, 53)
+taskbar.BorderSizePixel = 0
+taskbar.Position = UDim2.new(-0.326999992, 0, -0, 0)
+taskbar.Size = UDim2.new(0, 110, 0, 285)
+
+title_2.Name = "title"
+title_2.Parent = taskbar
+title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title_2.BackgroundTransparency = 1.000
+title_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+title_2.BorderSizePixel = 0
+title_2.Size = UDim2.new(0, 40, 0, 32)
+title_2.Font = Enum.Font.GothamMedium
+title_2.Text = "VOR"
+title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+title_2.TextSize = 14.000
+
+TextLabel_8.Parent = title_2
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0.614286065, 0, 0, 0)
+TextLabel_8.Size = UDim2.new(0, 40, 0, 32)
+TextLabel_8.Font = Enum.Font.GothamMedium
+TextLabel_8.Text = "TEX"
+TextLabel_8.TextColor3 = Color3.fromRGB(0, 255, 234)
+TextLabel_8.TextSize = 14.000
+
+UIGradient_7.Parent = TextLabel_8
+
+buttonhold.Name = "buttonhold"
+buttonhold.Parent = taskbar
+buttonhold.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+buttonhold.BackgroundTransparency = 1.000
+buttonhold.BorderColor3 = Color3.fromRGB(0, 0, 0)
+buttonhold.BorderSizePixel = 0
+buttonhold.Position = UDim2.new(0, 0, 0.101754382, 0)
+buttonhold.Size = UDim2.new(0, 108, 0, 256)
+
+funbutton.Name = "funbutton"
+funbutton.Parent = buttonhold
+funbutton.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+funbutton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+funbutton.BorderSizePixel = 0
+funbutton.Position = UDim2.new(0.0462962948, 0, 0.1328125, 0)
+funbutton.Size = UDim2.new(0, 100, 0, 28)
+funbutton.Font = Enum.Font.GothamBold
+funbutton.Text = "FUN SCRIPTS"
+funbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+funbutton.TextSize = 14.000
+
+UICorner_17.CornerRadius = UDim.new(0, 4)
+UICorner_17.Parent = funbutton
+
+ahomebutton.Name = "ahomebutton"
+ahomebutton.Parent = buttonhold
+ahomebutton.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+ahomebutton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ahomebutton.BorderSizePixel = 0
+ahomebutton.Position = UDim2.new(0.0404733717, 0, 0.0123872757, 0)
+ahomebutton.Size = UDim2.new(0, 100, 0, 28)
+ahomebutton.Font = Enum.Font.GothamBold
+ahomebutton.Text = "HOME"
+ahomebutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ahomebutton.TextSize = 14.000
+
+UICorner_18.CornerRadius = UDim.new(0, 4)
+UICorner_18.Parent = ahomebutton
+
+unibutton.Name = "unibutton"
+unibutton.Parent = buttonhold
+unibutton.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+unibutton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+unibutton.BorderSizePixel = 0
+unibutton.Position = UDim2.new(0.0314814262, 0, 0.238333225, 0)
+unibutton.Size = UDim2.new(0, 100, 0, 28)
+unibutton.Font = Enum.Font.GothamBold
+unibutton.Text = "UNIVERSAL"
+unibutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+unibutton.TextSize = 14.000
+
+UICorner_19.CornerRadius = UDim.new(0, 4)
+UICorner_19.Parent = unibutton
+
+UIListLayout_2.Parent = buttonhold
+UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_2.Padding = UDim.new(0, 3)
+
+UIPadding.Parent = buttonhold
+UIPadding.PaddingLeft = UDim.new(0, 3)
+
+open.Name = "open"
+open.Parent = mainmain
+open.AnchorPoint = Vector2.new(0.5, 0.5)
+open.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+open.BorderColor3 = Color3.fromRGB(0, 0, 0)
+open.BorderSizePixel = 0
+open.Position = UDim2.new(0.5, 0, 0.0888337418, 0)
+open.Size = UDim2.new(0, 200, 0, 32)
+open.Font = Enum.Font.Gotham
+open.Text = "OPEN VORTEX"
+open.TextColor3 = Color3.fromRGB(255, 255, 255)
+open.TextSize = 14.000
+
+UICorner_20.CornerRadius = UDim.new(0, 4)
+UICorner_20.Parent = open
+
+-- Scripts:
+
+local function MHZMMST_fake_script() -- mainmain.welcome 
+	local script = Instance.new('LocalScript', mainmain)
+
+	game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("Welcome to Vortex Premium, "..game.Players.LocalPlayer.Name..".")
+end
+coroutine.wrap(MHZMMST_fake_script)()
+local function TFOX_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	script.Parent.Text = "Welcome, "..game.Players.LocalPlayer.Name
+end
+coroutine.wrap(TFOX_fake_script)()
+local function AMBBFSE_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	local text = script.Parent
+	local add = 10
+	wait(1)
+	local k = 1
+	while k <= 255 do
+		text.TextColor3 = Color3.new(k/255,0/255,0/255)
+		k = k + add
+		wait()
+	end
+	while true do
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255,k/255,0/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255 - k/255,255/255,0/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(0/255,255/255,k/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(0/255,255/255 - k/255,255/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(k/255,0/255,255/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255,0/255,255/255 - k/255)
+			k = k + add
+			wait()
+		end
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255 - k/255,0/255,0/255)
+			k = k + add
+			wait()
+		end
+	end
+end
+coroutine.wrap(AMBBFSE_fake_script)()
+local function BOZLOPV_fake_script() -- TextLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_2)
+
+	script.Parent.Text = "@"..game.Players.LocalPlayer.Name
+end
+coroutine.wrap(BOZLOPV_fake_script)()
+local function VMAV_fake_script() -- TextLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_2)
+
+	local text = script.Parent
+	local add = 10
+	wait(1)
+	local k = 1
+	while k <= 255 do
+		text.TextColor3 = Color3.new(k/255,0/255,0/255)
+		k = k + add
+		wait()
+	end
+	while true do
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255,k/255,0/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255 - k/255,255/255,0/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(0/255,255/255,k/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(0/255,255/255 - k/255,255/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(k/255,0/255,255/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255,0/255,255/255 - k/255)
+			k = k + add
+			wait()
+		end
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255 - k/255,0/255,0/255)
+			k = k + add
+			wait()
+		end
+	end
+end
+coroutine.wrap(VMAV_fake_script)()
+local function CLSJO_fake_script() -- ImageLabel.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel)
+
+	imagelabel = script.Parent
+	
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	
+	local userId = player.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+	local imagelabel = script.Parent
+	imagelabel.Image = content
+end
+coroutine.wrap(CLSJO_fake_script)()
+local function ICTKOR_fake_script() -- TextLabel_3.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_3)
+
+	local text = script.Parent
+	local add = 10
+	wait(1)
+	local k = 1
+	while k <= 255 do
+		text.TextColor3 = Color3.new(k/255,0/255,0/255)
+		k = k + add
+		wait()
+	end
+	while true do
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255,k/255,0/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255 - k/255,255/255,0/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(0/255,255/255,k/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(0/255,255/255 - k/255,255/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(k/255,0/255,255/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255,0/255,255/255 - k/255)
+			k = k + add
+			wait()
+		end
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255 - k/255,0/255,0/255)
+			k = k + add
+			wait()
+		end
+	end
+end
+coroutine.wrap(ICTKOR_fake_script)()
+local function GALELBK_fake_script() -- minimize.LocalScript 
+	local script = Instance.new('LocalScript', minimize)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Parent.mainhold.Visible = false
+	end)
+end
+coroutine.wrap(GALELBK_fake_script)()
+local function UBMIDJ_fake_script() -- minimize.color 
+	local script = Instance.new('LocalScript', minimize)
+
+	-- LocalScript inside the TextButton
+	
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	-- Store the original text color
+	local originalTextColor = button.TextColor3
+	
+	-- Define tween information for the rainbow effect
+	local tweenInfo = TweenInfo.new(
+		0.5, -- Time
+		Enum.EasingStyle.Linear, -- EasingStyle
+		Enum.EasingDirection.Out -- EasingDirection
+	)
+	
+	-- Variables to keep track of current tweens
+	local runningRainbow = false
+	
+	-- Function to play rainbow effect
+	local function playRainbowEffect()
+		local colors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+	
+		local colorIndex = 1
+		runningRainbow = true
+	
+		while runningRainbow do
+			local nextColor = colors[colorIndex]
+			local colorTween = TweenService:Create(button, tweenInfo, {TextColor3 = nextColor})
+			colorTween:Play()
+	
+			colorTween.Completed:Wait()
+			colorIndex = colorIndex % #colors + 1
+		end
+	end
+	
+	-- Hover effect
+	button.MouseEnter:Connect(function()
+		if runningRainbow then
+			runningRainbow = false
+			wait(0.5) -- Ensure smooth transition if hover is triggered quickly
+		end
+		playRainbowEffect()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		runningRainbow = false -- Stop the rainbow effect
+	
+		local colorTween = TweenService:Create(button, tweenInfo, {TextColor3 = originalTextColor})
+		colorTween:Play()
+	end)
+	
+end
+coroutine.wrap(UBMIDJ_fake_script)()
+local function CVNVLD_fake_script() -- destroy.color 
+	local script = Instance.new('LocalScript', destroy)
+
+	-- LocalScript inside the TextButton
+	
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	-- Store the original text color
+	local originalTextColor = button.TextColor3
+	
+	-- Define tween information for the rainbow effect
+	local tweenInfo = TweenInfo.new(
+		0.5, -- Time
+		Enum.EasingStyle.Linear, -- EasingStyle
+		Enum.EasingDirection.Out -- EasingDirection
+	)
+	
+	-- Variables to keep track of current tweens
+	local runningRainbow = false
+	
+	-- Function to play rainbow effect
+	local function playRainbowEffect()
+		local colors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+	
+		local colorIndex = 1
+		runningRainbow = true
+	
+		while runningRainbow do
+			local nextColor = colors[colorIndex]
+			local colorTween = TweenService:Create(button, tweenInfo, {TextColor3 = nextColor})
+			colorTween:Play()
+	
+			colorTween.Completed:Wait()
+			colorIndex = colorIndex % #colors + 1
+		end
+	end
+	
+	-- Hover effect
+	button.MouseEnter:Connect(function()
+		if runningRainbow then
+			runningRainbow = false
+			wait(0.5) -- Ensure smooth transition if hover is triggered quickly
+		end
+		playRainbowEffect()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		runningRainbow = false -- Stop the rainbow effect
+	
+		local colorTween = TweenService:Create(button, tweenInfo, {TextColor3 = originalTextColor})
+		colorTween:Play()
+	end)
+	
+end
+coroutine.wrap(CVNVLD_fake_script)()
+local function FSNO_fake_script() -- destroy.destroyscript 
+	local script = Instance.new('LocalScript', destroy)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(FSNO_fake_script)()
+local function GLQXQTR_fake_script() -- TextLabel_5.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_5)
+
+	local text = script.Parent
+	local add = 10
+	wait(1)
+	local k = 1
+	while k <= 255 do
+		text.TextColor3 = Color3.new(k/255,0/255,0/255)
+		k = k + add
+		wait()
+	end
+	while true do
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255,k/255,0/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255 - k/255,255/255,0/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(0/255,255/255,k/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(0/255,255/255 - k/255,255/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(k/255,0/255,255/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255,0/255,255/255 - k/255)
+			k = k + add
+			wait()
+		end
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255 - k/255,0/255,0/255)
+			k = k + add
+			wait()
+		end
+	end
+end
+coroutine.wrap(GLQXQTR_fake_script)()
+local function EPRIJLI_fake_script() -- back.backscript 
+	local script = Instance.new('LocalScript', back)
+
+	--// put all of that in a mouse button click function
+	script.Parent.MouseButton1Click:Connect(function()
+		--// hides all tabs
+		local tabs = script.Parent.Parent.Parent.Parent.thold
+		for i, v in pairs(tabs:GetChildren()) do
+			if v:IsA("Frame") then
+				v.Visible = false
+			end
+		end
+	
+		--// shows tab u want
+		script.Parent.Parent.Parent.Parent.thold.home.Visible = true
+		--                                /\ PUT TAB NAME THERE	
+	end)
+end
+coroutine.wrap(EPRIJLI_fake_script)()
+local function BUZIO_fake_script() -- TextLabel_6.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_6)
+
+	local text = script.Parent
+	local add = 10
+	wait(1)
+	local k = 1
+	while k <= 255 do
+		text.TextColor3 = Color3.new(k/255,0/255,0/255)
+		k = k + add
+		wait()
+	end
+	while true do
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255,k/255,0/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255 - k/255,255/255,0/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(0/255,255/255,k/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(0/255,255/255 - k/255,255/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(k/255,0/255,255/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255,0/255,255/255 - k/255)
+			k = k + add
+			wait()
+		end
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255 - k/255,0/255,0/255)
+			k = k + add
+			wait()
+		end
+	end
+end
+coroutine.wrap(BUZIO_fake_script)()
+local function LYZEPB_fake_script() -- jumpbox.jumpscript 
+	local script = Instance.new('LocalScript', jumpbox)
+
+	local plr = game.Players.LocalPlayer
+	local char = plr.Character
+	local hum = char:WaitForChild("Humanoid")
+	
+	
+	script.Parent.Changed:Connect(function()
+		hum.JumpPower = script.Parent.Text
+	end)
+end
+coroutine.wrap(LYZEPB_fake_script)()
+local function TTXYL_fake_script() -- walkslider.updater 
+	local script = Instance.new('LocalScript', walkslider)
+
+	local UserInputService = game:GetService("UserInputService")
+	local slider = script.Parent
+	local fill = script.Parent.fill
+	local trigger = script.Parent.trigger
+	
+	local slideractive = false
+	
+	function UpdateSlider(input)
+		local output = math.clamp((input.Position.X - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
+		fill.Size = UDim2.fromScale(output, 1)
+	end
+	
+	function activateslider()
+		slideractive = true
+	end
+	
+	trigger.MouseButton1Down:Connect(function()
+		activateslider()
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if slideractive and input.UserInputType == Enum.UserInputType.MouseMovement then
+			UpdateSlider(input)
+		end
+	end)
+	
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			slideractive = false
+		end
+	end)
+	
+end
+coroutine.wrap(TTXYL_fake_script)()
+local function QERWGCE_fake_script() -- back_2.backscript 
+	local script = Instance.new('LocalScript', back_2)
+
+	--// put all of that in a mouse button click function
+	script.Parent.MouseButton1Click:Connect(function()
+		--// hides all tabs
+		local tabs = script.Parent.Parent.Parent.Parent.thold
+		for i, v in pairs(tabs:GetChildren()) do
+			if v:IsA("Frame") then
+				v.Visible = false
+			end
+		end
+	
+		--// shows tab u want
+		script.Parent.Parent.Parent.Parent.thold.home.Visible = true
+		--                                /\ PUT TAB NAME THERE	
+	end)
+end
+coroutine.wrap(QERWGCE_fake_script)()
+local function IDVVP_fake_script() -- TextLabel_7.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_7)
+
+	local text = script.Parent
+	local add = 10
+	wait(1)
+	local k = 1
+	while k <= 255 do
+		text.TextColor3 = Color3.new(k/255,0/255,0/255)
+		k = k + add
+		wait()
+	end
+	while true do
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255,k/255,0/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255 - k/255,255/255,0/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(0/255,255/255,k/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(0/255,255/255 - k/255,255/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(k/255,0/255,255/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255,0/255,255/255 - k/255)
+			k = k + add
+			wait()
+		end
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255 - k/255,0/255,0/255)
+			k = k + add
+			wait()
+		end
+	end
+end
+coroutine.wrap(IDVVP_fake_script)()
+local function QBLZW_fake_script() -- infinitey.LocalScript 
+	local script = Instance.new('LocalScript', infinitey)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+	end)
+end
+coroutine.wrap(QBLZW_fake_script)()
+local function PNNEBRF_fake_script() -- infinitey.color 
+	local script = Instance.new('LocalScript', infinitey)
+
+	-- LocalScript inside the TextButton
+	
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	-- Store the original size, position, and text color
+	local originalSize = button.Size
+	local originalPosition = button.Position
+	local originalTextColor = button.TextColor3
+	
+	-- Define tween information for the bounce effect
+	local tweenInfo = TweenInfo.new(
+		0.1, -- Time
+		Enum.EasingStyle.Quad, -- EasingStyle
+		Enum.EasingDirection.Out -- EasingDirection
+	)
+	
+	-- Define the size increase and position offset for the bounce effect
+	local hoverSizeIncrease = UDim2.new(0, 5, 0, 5)
+	local goalSizeIncrease = UDim2.new(0, 2, 0, 2) -- Slight bounce increase
+	local goalPositionOffset = UDim2.new(0, -1, 0, -1) -- Slight position offset
+	
+	-- Variable to keep track of current tween
+	local currentTween
+	local runningRainbow = false
+	
+	-- Create tween function
+	local function createTween(goal)
+		return TweenService:Create(button, tweenInfo, goal)
+	end
+	
+	-- Function to play bounce effect
+	local function playBounceEffect()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		local goal = {Size = originalSize + hoverSizeIncrease, Position = originalPosition + goalPositionOffset}
+		currentTween = createTween(goal)
+		currentTween:Play()
+		currentTween.Completed:Connect(function()
+			local goal = {Size = originalSize + goalSizeIncrease, Position = originalPosition + goalPositionOffset}
+			currentTween = createTween(goal)
+			currentTween:Play()
+		end)
+	end
+	
+	-- Function to play rainbow effect
+	local function playRainbowEffect()
+		local colors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+	
+		local colorIndex = 1
+		runningRainbow = true
+	
+		while runningRainbow do
+			local nextColor = colors[colorIndex]
+			local colorTween = TweenService:Create(button, tweenInfo, {TextColor3 = nextColor})
+			colorTween:Play()
+	
+			colorTween.Completed:Wait()
+			colorIndex = (colorIndex % #colors) + 1
+		end
+	end
+	
+	-- Hover effect
+	button.MouseEnter:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		playBounceEffect()
+		playRainbowEffect()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+		runningRainbow = false -- Stop the rainbow effect
+	
+		local goal = {Size = originalSize, Position = originalPosition, TextColor3 = originalTextColor}
+		currentTween = createTween(goal)
+		currentTween:Play()
+	end)
+	
+end
+coroutine.wrap(PNNEBRF_fake_script)()
+local function INEVE_fake_script() -- exware.LocalScript 
+	local script = Instance.new('LocalScript', exware)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Tomskix/exware-public/main/loader"))()
+	end)
+end
+coroutine.wrap(INEVE_fake_script)()
+local function DZFF_fake_script() -- exware.color 
+	local script = Instance.new('LocalScript', exware)
+
+	-- LocalScript inside the TextButton
+	
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	-- Store the original size, position, and text color
+	local originalSize = button.Size
+	local originalPosition = button.Position
+	local originalTextColor = button.TextColor3
+	
+	-- Define tween information for the bounce effect
+	local tweenInfo = TweenInfo.new(
+		0.1, -- Time
+		Enum.EasingStyle.Quad, -- EasingStyle
+		Enum.EasingDirection.Out -- EasingDirection
+	)
+	
+	-- Define the size increase and position offset for the bounce effect
+	local hoverSizeIncrease = UDim2.new(0, 5, 0, 5)
+	local goalSizeIncrease = UDim2.new(0, 2, 0, 2) -- Slight bounce increase
+	local goalPositionOffset = UDim2.new(0, -1, 0, -1) -- Slight position offset
+	
+	-- Variable to keep track of current tween
+	local currentTween
+	local runningRainbow = false
+	
+	-- Create tween function
+	local function createTween(goal)
+		return TweenService:Create(button, tweenInfo, goal)
+	end
+	
+	-- Function to play bounce effect
+	local function playBounceEffect()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		local goal = {Size = originalSize + hoverSizeIncrease, Position = originalPosition + goalPositionOffset}
+		currentTween = createTween(goal)
+		currentTween:Play()
+		currentTween.Completed:Connect(function()
+			local goal = {Size = originalSize + goalSizeIncrease, Position = originalPosition + goalPositionOffset}
+			currentTween = createTween(goal)
+			currentTween:Play()
+		end)
+	end
+	
+	-- Function to play rainbow effect
+	local function playRainbowEffect()
+		local colors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+	
+		local colorIndex = 1
+		runningRainbow = true
+	
+		while runningRainbow do
+			local nextColor = colors[colorIndex]
+			local colorTween = TweenService:Create(button, tweenInfo, {TextColor3 = nextColor})
+			colorTween:Play()
+	
+			colorTween.Completed:Wait()
+			colorIndex = (colorIndex % #colors) + 1
+		end
+	end
+	
+	-- Hover effect
+	button.MouseEnter:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		playBounceEffect()
+		playRainbowEffect()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+		runningRainbow = false -- Stop the rainbow effect
+	
+		local goal = {Size = originalSize, Position = originalPosition, TextColor3 = originalTextColor}
+		currentTween = createTween(goal)
+		currentTween:Play()
+	end)
+	
+end
+coroutine.wrap(DZFF_fake_script)()
+local function QDRWW_fake_script() -- zuremod.LocalScript 
+	local script = Instance.new('LocalScript', zuremod)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))()
+	end)
+end
+coroutine.wrap(QDRWW_fake_script)()
+local function MTAZXML_fake_script() -- zuremod.color 
+	local script = Instance.new('LocalScript', zuremod)
+
+	-- LocalScript inside the TextButton
+	
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	-- Store the original size, position, and text color
+	local originalSize = button.Size
+	local originalPosition = button.Position
+	local originalTextColor = button.TextColor3
+	
+	-- Define tween information for the bounce effect
+	local tweenInfo = TweenInfo.new(
+		0.1, -- Time
+		Enum.EasingStyle.Quad, -- EasingStyle
+		Enum.EasingDirection.Out -- EasingDirection
+	)
+	
+	-- Define the size increase and position offset for the bounce effect
+	local hoverSizeIncrease = UDim2.new(0, 5, 0, 5)
+	local goalSizeIncrease = UDim2.new(0, 2, 0, 2) -- Slight bounce increase
+	local goalPositionOffset = UDim2.new(0, -1, 0, -1) -- Slight position offset
+	
+	-- Variable to keep track of current tween
+	local currentTween
+	local runningRainbow = false
+	
+	-- Create tween function
+	local function createTween(goal)
+		return TweenService:Create(button, tweenInfo, goal)
+	end
+	
+	-- Function to play bounce effect
+	local function playBounceEffect()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		local goal = {Size = originalSize + hoverSizeIncrease, Position = originalPosition + goalPositionOffset}
+		currentTween = createTween(goal)
+		currentTween:Play()
+		currentTween.Completed:Connect(function()
+			local goal = {Size = originalSize + goalSizeIncrease, Position = originalPosition + goalPositionOffset}
+			currentTween = createTween(goal)
+			currentTween:Play()
+		end)
+	end
+	
+	-- Function to play rainbow effect
+	local function playRainbowEffect()
+		local colors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+	
+		local colorIndex = 1
+		runningRainbow = true
+	
+		while runningRainbow do
+			local nextColor = colors[colorIndex]
+			local colorTween = TweenService:Create(button, tweenInfo, {TextColor3 = nextColor})
+			colorTween:Play()
+	
+			colorTween.Completed:Wait()
+			colorIndex = (colorIndex % #colors) + 1
+		end
+	end
+	
+	-- Hover effect
+	button.MouseEnter:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		playBounceEffect()
+		playRainbowEffect()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+		runningRainbow = false -- Stop the rainbow effect
+	
+		local goal = {Size = originalSize, Position = originalPosition, TextColor3 = originalTextColor}
+		currentTween = createTween(goal)
+		currentTween:Play()
+	end)
+	
+end
+coroutine.wrap(MTAZXML_fake_script)()
+local function WACII_fake_script() -- prisonware.LocalScript 
+	local script = Instance.new('LocalScript', prisonware)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))()
+	end)
+end
+coroutine.wrap(WACII_fake_script)()
+local function KTSIOO_fake_script() -- prisonware.color 
+	local script = Instance.new('LocalScript', prisonware)
+
+	-- LocalScript inside the TextButton
+	
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	-- Store the original size, position, and text color
+	local originalSize = button.Size
+	local originalPosition = button.Position
+	local originalTextColor = button.TextColor3
+	
+	-- Define tween information for the bounce effect
+	local tweenInfo = TweenInfo.new(
+		0.1, -- Time
+		Enum.EasingStyle.Quad, -- EasingStyle
+		Enum.EasingDirection.Out -- EasingDirection
+	)
+	
+	-- Define the size increase and position offset for the bounce effect
+	local hoverSizeIncrease = UDim2.new(0, 5, 0, 5)
+	local goalSizeIncrease = UDim2.new(0, 2, 0, 2) -- Slight bounce increase
+	local goalPositionOffset = UDim2.new(0, -1, 0, -1) -- Slight position offset
+	
+	-- Variable to keep track of current tween
+	local currentTween
+	local runningRainbow = false
+	
+	-- Create tween function
+	local function createTween(goal)
+		return TweenService:Create(button, tweenInfo, goal)
+	end
+	
+	-- Function to play bounce effect
+	local function playBounceEffect()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		local goal = {Size = originalSize + hoverSizeIncrease, Position = originalPosition + goalPositionOffset}
+		currentTween = createTween(goal)
+		currentTween:Play()
+		currentTween.Completed:Connect(function()
+			local goal = {Size = originalSize + goalSizeIncrease, Position = originalPosition + goalPositionOffset}
+			currentTween = createTween(goal)
+			currentTween:Play()
+		end)
+	end
+	
+	-- Function to play rainbow effect
+	local function playRainbowEffect()
+		local colors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+	
+		local colorIndex = 1
+		runningRainbow = true
+	
+		while runningRainbow do
+			local nextColor = colors[colorIndex]
+			local colorTween = TweenService:Create(button, tweenInfo, {TextColor3 = nextColor})
+			colorTween:Play()
+	
+			colorTween.Completed:Wait()
+			colorIndex = (colorIndex % #colors) + 1
+		end
+	end
+	
+	-- Hover effect
+	button.MouseEnter:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		playBounceEffect()
+		playRainbowEffect()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+		runningRainbow = false -- Stop the rainbow effect
+	
+		local goal = {Size = originalSize, Position = originalPosition, TextColor3 = originalTextColor}
+		currentTween = createTween(goal)
+		currentTween:Play()
+	end)
+	
+end
+coroutine.wrap(KTSIOO_fake_script)()
+local function FANE_fake_script() -- zbloxfruits.LocalScript 
+	local script = Instance.new('LocalScript', zbloxfruits)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))() 
+	end)
+end
+coroutine.wrap(FANE_fake_script)()
+local function EGFAK_fake_script() -- zbloxfruits.color 
+	local script = Instance.new('LocalScript', zbloxfruits)
+
+	-- LocalScript inside the TextButton
+	
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	-- Store the original size, position, and text color
+	local originalSize = button.Size
+	local originalPosition = button.Position
+	local originalTextColor = button.TextColor3
+	
+	-- Define tween information for the bounce effect
+	local tweenInfo = TweenInfo.new(
+		0.1, -- Time
+		Enum.EasingStyle.Quad, -- EasingStyle
+		Enum.EasingDirection.Out -- EasingDirection
+	)
+	
+	-- Define the size increase and position offset for the bounce effect
+	local hoverSizeIncrease = UDim2.new(0, 5, 0, 5)
+	local goalSizeIncrease = UDim2.new(0, 2, 0, 2) -- Slight bounce increase
+	local goalPositionOffset = UDim2.new(0, -1, 0, -1) -- Slight position offset
+	
+	-- Variable to keep track of current tween
+	local currentTween
+	local runningRainbow = false
+	
+	-- Create tween function
+	local function createTween(goal)
+		return TweenService:Create(button, tweenInfo, goal)
+	end
+	
+	-- Function to play bounce effect
+	local function playBounceEffect()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		local goal = {Size = originalSize + hoverSizeIncrease, Position = originalPosition + goalPositionOffset}
+		currentTween = createTween(goal)
+		currentTween:Play()
+		currentTween.Completed:Connect(function()
+			local goal = {Size = originalSize + goalSizeIncrease, Position = originalPosition + goalPositionOffset}
+			currentTween = createTween(goal)
+			currentTween:Play()
+		end)
+	end
+	
+	-- Function to play rainbow effect
+	local function playRainbowEffect()
+		local colors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+	
+		local colorIndex = 1
+		runningRainbow = true
+	
+		while runningRainbow do
+			local nextColor = colors[colorIndex]
+			local colorTween = TweenService:Create(button, tweenInfo, {TextColor3 = nextColor})
+			colorTween:Play()
+	
+			colorTween.Completed:Wait()
+			colorIndex = (colorIndex % #colors) + 1
+		end
+	end
+	
+	-- Hover effect
+	button.MouseEnter:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		playBounceEffect()
+		playRainbowEffect()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+		runningRainbow = false -- Stop the rainbow effect
+	
+		local goal = {Size = originalSize, Position = originalPosition, TextColor3 = originalTextColor}
+		currentTween = createTween(goal)
+		currentTween:Play()
+	end)
+	
+end
+coroutine.wrap(EGFAK_fake_script)()
+local function KOBXB_fake_script() -- solsrng.LocalScript 
+	local script = Instance.new('LocalScript', solsrng)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Looser3itx/Hmmmmmmmmmmmmmmmmmmmmmmmmmmmm/main/loader.lua"))()
+	end)
+end
+coroutine.wrap(KOBXB_fake_script)()
+local function GJHSI_fake_script() -- solsrng.color 
+	local script = Instance.new('LocalScript', solsrng)
+
+	-- LocalScript inside the TextButton
+	
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	-- Store the original size, position, and text color
+	local originalSize = button.Size
+	local originalPosition = button.Position
+	local originalTextColor = button.TextColor3
+	
+	-- Define tween information for the bounce effect
+	local tweenInfo = TweenInfo.new(
+		0.1, -- Time
+		Enum.EasingStyle.Quad, -- EasingStyle
+		Enum.EasingDirection.Out -- EasingDirection
+	)
+	
+	-- Define the size increase and position offset for the bounce effect
+	local hoverSizeIncrease = UDim2.new(0, 5, 0, 5)
+	local goalSizeIncrease = UDim2.new(0, 2, 0, 2) -- Slight bounce increase
+	local goalPositionOffset = UDim2.new(0, -1, 0, -1) -- Slight position offset
+	
+	-- Variable to keep track of current tween
+	local currentTween
+	local runningRainbow = false
+	
+	-- Create tween function
+	local function createTween(goal)
+		return TweenService:Create(button, tweenInfo, goal)
+	end
+	
+	-- Function to play bounce effect
+	local function playBounceEffect()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		local goal = {Size = originalSize + hoverSizeIncrease, Position = originalPosition + goalPositionOffset}
+		currentTween = createTween(goal)
+		currentTween:Play()
+		currentTween.Completed:Connect(function()
+			local goal = {Size = originalSize + goalSizeIncrease, Position = originalPosition + goalPositionOffset}
+			currentTween = createTween(goal)
+			currentTween:Play()
+		end)
+	end
+	
+	-- Function to play rainbow effect
+	local function playRainbowEffect()
+		local colors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+	
+		local colorIndex = 1
+		runningRainbow = true
+	
+		while runningRainbow do
+			local nextColor = colors[colorIndex]
+			local colorTween = TweenService:Create(button, tweenInfo, {TextColor3 = nextColor})
+			colorTween:Play()
+	
+			colorTween.Completed:Wait()
+			colorIndex = (colorIndex % #colors) + 1
+		end
+	end
+	
+	-- Hover effect
+	button.MouseEnter:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		playBounceEffect()
+		playRainbowEffect()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+		runningRainbow = false -- Stop the rainbow effect
+	
+		local goal = {Size = originalSize, Position = originalPosition, TextColor3 = originalTextColor}
+		currentTween = createTween(goal)
+		currentTween:Play()
+	end)
+	
+end
+coroutine.wrap(GJHSI_fake_script)()
+local function HOXARDF_fake_script() -- zbuild.LocalScript 
+	local script = Instance.new('LocalScript', zbuild)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Looser3itx/Hmmmmmmmmmmmmmmmmmmmmmmmmmmmm/main/loader.lua"))()
+	end)
+end
+coroutine.wrap(HOXARDF_fake_script)()
+local function DNOZSI_fake_script() -- zbuild.color 
+	local script = Instance.new('LocalScript', zbuild)
+
+	-- LocalScript inside the TextButton
+	
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	-- Store the original size, position, and text color
+	local originalSize = button.Size
+	local originalPosition = button.Position
+	local originalTextColor = button.TextColor3
+	
+	-- Define tween information for the bounce effect
+	local tweenInfo = TweenInfo.new(
+		0.1, -- Time
+		Enum.EasingStyle.Quad, -- EasingStyle
+		Enum.EasingDirection.Out -- EasingDirection
+	)
+	
+	-- Define the size increase and position offset for the bounce effect
+	local hoverSizeIncrease = UDim2.new(0, 5, 0, 5)
+	local goalSizeIncrease = UDim2.new(0, 2, 0, 2) -- Slight bounce increase
+	local goalPositionOffset = UDim2.new(0, -1, 0, -1) -- Slight position offset
+	
+	-- Variable to keep track of current tween
+	local currentTween
+	local runningRainbow = false
+	
+	-- Create tween function
+	local function createTween(goal)
+		return TweenService:Create(button, tweenInfo, goal)
+	end
+	
+	-- Function to play bounce effect
+	local function playBounceEffect()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		local goal = {Size = originalSize + hoverSizeIncrease, Position = originalPosition + goalPositionOffset}
+		currentTween = createTween(goal)
+		currentTween:Play()
+		currentTween.Completed:Connect(function()
+			local goal = {Size = originalSize + goalSizeIncrease, Position = originalPosition + goalPositionOffset}
+			currentTween = createTween(goal)
+			currentTween:Play()
+		end)
+	end
+	
+	-- Function to play rainbow effect
+	local function playRainbowEffect()
+		local colors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+	
+		local colorIndex = 1
+		runningRainbow = true
+	
+		while runningRainbow do
+			local nextColor = colors[colorIndex]
+			local colorTween = TweenService:Create(button, tweenInfo, {TextColor3 = nextColor})
+			colorTween:Play()
+	
+			colorTween.Completed:Wait()
+			colorIndex = (colorIndex % #colors) + 1
+		end
+	end
+	
+	-- Hover effect
+	button.MouseEnter:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		playBounceEffect()
+		playRainbowEffect()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+		runningRainbow = false -- Stop the rainbow effect
+	
+		local goal = {Size = originalSize, Position = originalPosition, TextColor3 = originalTextColor}
+		currentTween = createTween(goal)
+		currentTween:Play()
+	end)
+	
+end
+coroutine.wrap(DNOZSI_fake_script)()
+local function FDCVPXO_fake_script() -- cusduels.LocalScript 
+	local script = Instance.new('LocalScript', cusduels)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))()
+	end)
+end
+coroutine.wrap(FDCVPXO_fake_script)()
+local function OTFYN_fake_script() -- cusduels.color 
+	local script = Instance.new('LocalScript', cusduels)
+
+	-- LocalScript inside the TextButton
+	
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	-- Store the original size, position, and text color
+	local originalSize = button.Size
+	local originalPosition = button.Position
+	local originalTextColor = button.TextColor3
+	
+	-- Define tween information for the bounce effect
+	local tweenInfo = TweenInfo.new(
+		0.1, -- Time
+		Enum.EasingStyle.Quad, -- EasingStyle
+		Enum.EasingDirection.Out -- EasingDirection
+	)
+	
+	-- Define the size increase and position offset for the bounce effect
+	local hoverSizeIncrease = UDim2.new(0, 5, 0, 5)
+	local goalSizeIncrease = UDim2.new(0, 2, 0, 2) -- Slight bounce increase
+	local goalPositionOffset = UDim2.new(0, -1, 0, -1) -- Slight position offset
+	
+	-- Variable to keep track of current tween
+	local currentTween
+	local runningRainbow = false
+	
+	-- Create tween function
+	local function createTween(goal)
+		return TweenService:Create(button, tweenInfo, goal)
+	end
+	
+	-- Function to play bounce effect
+	local function playBounceEffect()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		local goal = {Size = originalSize + hoverSizeIncrease, Position = originalPosition + goalPositionOffset}
+		currentTween = createTween(goal)
+		currentTween:Play()
+		currentTween.Completed:Connect(function()
+			local goal = {Size = originalSize + goalSizeIncrease, Position = originalPosition + goalPositionOffset}
+			currentTween = createTween(goal)
+			currentTween:Play()
+		end)
+	end
+	
+	-- Function to play rainbow effect
+	local function playRainbowEffect()
+		local colors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+	
+		local colorIndex = 1
+		runningRainbow = true
+	
+		while runningRainbow do
+			local nextColor = colors[colorIndex]
+			local colorTween = TweenService:Create(button, tweenInfo, {TextColor3 = nextColor})
+			colorTween:Play()
+	
+			colorTween.Completed:Wait()
+			colorIndex = (colorIndex % #colors) + 1
+		end
+	end
+	
+	-- Hover effect
+	button.MouseEnter:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		playBounceEffect()
+		playRainbowEffect()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+		runningRainbow = false -- Stop the rainbow effect
+	
+		local goal = {Size = originalSize, Position = originalPosition, TextColor3 = originalTextColor}
+		currentTween = createTween(goal)
+		currentTween:Play()
+	end)
+	
+end
+coroutine.wrap(OTFYN_fake_script)()
+local function EUGLDR_fake_script() -- nexam.LocalScript 
+	local script = Instance.new('LocalScript', nexam)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5ebefab5c68bfa67271dcbf6430d3c7d.lua"))
+	end)
+end
+coroutine.wrap(EUGLDR_fake_script)()
+local function KMFUBR_fake_script() -- nexam.color 
+	local script = Instance.new('LocalScript', nexam)
+
+	-- LocalScript inside the TextButton
+	
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	-- Store the original size, position, and text color
+	local originalSize = button.Size
+	local originalPosition = button.Position
+	local originalTextColor = button.TextColor3
+	
+	-- Define tween information for the bounce effect
+	local tweenInfo = TweenInfo.new(
+		0.1, -- Time
+		Enum.EasingStyle.Quad, -- EasingStyle
+		Enum.EasingDirection.Out -- EasingDirection
+	)
+	
+	-- Define the size increase and position offset for the bounce effect
+	local hoverSizeIncrease = UDim2.new(0, 5, 0, 5)
+	local goalSizeIncrease = UDim2.new(0, 2, 0, 2) -- Slight bounce increase
+	local goalPositionOffset = UDim2.new(0, -1, 0, -1) -- Slight position offset
+	
+	-- Variable to keep track of current tween
+	local currentTween
+	local runningRainbow = false
+	
+	-- Create tween function
+	local function createTween(goal)
+		return TweenService:Create(button, tweenInfo, goal)
+	end
+	
+	-- Function to play bounce effect
+	local function playBounceEffect()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		local goal = {Size = originalSize + hoverSizeIncrease, Position = originalPosition + goalPositionOffset}
+		currentTween = createTween(goal)
+		currentTween:Play()
+		currentTween.Completed:Connect(function()
+			local goal = {Size = originalSize + goalSizeIncrease, Position = originalPosition + goalPositionOffset}
+			currentTween = createTween(goal)
+			currentTween:Play()
+		end)
+	end
+	
+	-- Function to play rainbow effect
+	local function playRainbowEffect()
+		local colors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+	
+		local colorIndex = 1
+		runningRainbow = true
+	
+		while runningRainbow do
+			local nextColor = colors[colorIndex]
+			local colorTween = TweenService:Create(button, tweenInfo, {TextColor3 = nextColor})
+			colorTween:Play()
+	
+			colorTween.Completed:Wait()
+			colorIndex = (colorIndex % #colors) + 1
+		end
+	end
+	
+	-- Hover effect
+	button.MouseEnter:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		playBounceEffect()
+		playRainbowEffect()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+		runningRainbow = false -- Stop the rainbow effect
+	
+		local goal = {Size = originalSize, Position = originalPosition, TextColor3 = originalTextColor}
+		currentTween = createTween(goal)
+		currentTween:Play()
+	end)
+	
+end
+coroutine.wrap(KMFUBR_fake_script)()
+local function RKHYP_fake_script() -- universal.searchscript 
+	local script = Instance.new('LocalScript', universal)
+
+	local scroll = script.Parent.uniscroll
+	local textBox = script.Parent.bsearch
+	
+	textBox.Changed:Connect(function() -- when the text is changed
+		local text = textBox.Text:lower() -- lowercase search bar text
+		if text ~= "" then -- if it has text
+			local buttons = scroll:GetDescendants() -- all of the buttons
+			for _, button in pairs(buttons) do -- loops through the buttons
+				if button:IsA("TextButton") then -- if it's a button
+					local buttonText = button.Text:lower() -- lowercase button text
+					if string.find(buttonText, text) then -- if search bar text is found in the button's text
+						button.Visible = true -- shows button
+					else -- otherwise
+						button.Visible = false -- hides button
+					end
+				end
+			end
+		else -- if it's empty
+			local buttons = scroll:GetDescendants() -- all buttons
+			for _, button in pairs(buttons) do -- loops through buttons
+				if button:IsA("TextButton") then -- if it's a button
+					button.Visible = true -- shows button
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(RKHYP_fake_script)()
+local function MZPZFAE_fake_script() -- atitle.LocalScript 
+	local script = Instance.new('LocalScript', atitle)
+
+	local text = script.Parent
+	local add = 10
+	wait(1)
+	local k = 1
+	while k <= 255 do
+		text.TextColor3 = Color3.new(k/255,0/255,0/255)
+		k = k + add
+		wait()
+	end
+	while true do
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255,k/255,0/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255 - k/255,255/255,0/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(0/255,255/255,k/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(0/255,255/255 - k/255,255/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(k/255,0/255,255/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255,0/255,255/255 - k/255)
+			k = k + add
+			wait()
+		end
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255 - k/255,0/255,0/255)
+			k = k + add
+			wait()
+		end
+	end
+end
+coroutine.wrap(MZPZFAE_fake_script)()
+local function RGZIF_fake_script() -- TextLabel_8.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_8)
+
+	local text = script.Parent
+	local add = 10
+	wait(1)
+	local k = 1
+	while k <= 255 do
+		text.TextColor3 = Color3.new(k/255,0/255,0/255)
+		k = k + add
+		wait()
+	end
+	while true do
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255,k/255,0/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255 - k/255,255/255,0/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(0/255,255/255,k/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(0/255,255/255 - k/255,255/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(k/255,0/255,255/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255,0/255,255/255 - k/255)
+			k = k + add
+			wait()
+		end
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255 - k/255,0/255,0/255)
+			k = k + add
+			wait()
+		end
+	end
+end
+coroutine.wrap(RGZIF_fake_script)()
+local function VPSKKPP_fake_script() -- funbutton.LocalScript 
+	local script = Instance.new('LocalScript', funbutton)
+
+	--// put all of that in a mouse button click function
+	script.Parent.MouseButton1Click:Connect(function()
+		--// hides all tabs
+		local tabs = script.Parent.Parent.Parent.Parent.thold
+		for i, v in pairs(tabs:GetChildren()) do
+			if v:IsA("Frame") then
+				v.Visible = false
+			end
+		end
+	
+		--// shows tab u want
+		script.Parent.Parent.Parent.Parent.thold.fun.Visible = true
+		--                                /\ PUT TAB NAME THERE	
+	end)
+end
+coroutine.wrap(VPSKKPP_fake_script)()
+local function OKWWZV_fake_script() -- funbutton.color 
+	local script = Instance.new('LocalScript', funbutton)
+
+	-- LocalScript inside the TextButton
+	
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	-- Store the original size, position, and text color
+	local originalSize = button.Size
+	local originalPosition = button.Position
+	local originalTextColor = button.TextColor3
+	
+	-- Define tween information for the bounce effect
+	local tweenInfo = TweenInfo.new(
+		0.1, -- Time
+		Enum.EasingStyle.Quad, -- EasingStyle
+		Enum.EasingDirection.Out -- EasingDirection
+	)
+	
+	-- Define the size increase and position offset for the bounce effect
+	local hoverSizeIncrease = UDim2.new(0, 5, 0, 5)
+	local goalSizeIncrease = UDim2.new(0, 2, 0, 2) -- Slight bounce increase
+	local goalPositionOffset = UDim2.new(0, -1, 0, -1) -- Slight position offset
+	
+	-- Variable to keep track of current tween
+	local currentTween
+	local runningRainbow = false
+	
+	-- Create tween function
+	local function createTween(goal)
+		return TweenService:Create(button, tweenInfo, goal)
+	end
+	
+	-- Function to play bounce effect
+	local function playBounceEffect()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		local goal = {Size = originalSize + hoverSizeIncrease, Position = originalPosition + goalPositionOffset}
+		currentTween = createTween(goal)
+		currentTween:Play()
+		currentTween.Completed:Connect(function()
+			local goal = {Size = originalSize + goalSizeIncrease, Position = originalPosition + goalPositionOffset}
+			currentTween = createTween(goal)
+			currentTween:Play()
+		end)
+	end
+	
+	-- Function to play rainbow effect
+	local function playRainbowEffect()
+		local colors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+	
+		local colorIndex = 1
+		runningRainbow = true
+	
+		while runningRainbow do
+			local nextColor = colors[colorIndex]
+			local colorTween = TweenService:Create(button, tweenInfo, {TextColor3 = nextColor})
+			colorTween:Play()
+	
+			colorTween.Completed:Wait()
+			colorIndex = (colorIndex % #colors) + 1
+		end
+	end
+	
+	-- Hover effect
+	button.MouseEnter:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		playBounceEffect()
+		playRainbowEffect()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+		runningRainbow = false -- Stop the rainbow effect
+	
+		local goal = {Size = originalSize, Position = originalPosition, TextColor3 = originalTextColor}
+		currentTween = createTween(goal)
+		currentTween:Play()
+	end)
+	
+end
+coroutine.wrap(OKWWZV_fake_script)()
+local function UMVFK_fake_script() -- ahomebutton.LocalScript 
+	local script = Instance.new('LocalScript', ahomebutton)
+
+	--// put all of that in a mouse button click function
+	script.Parent.MouseButton1Click:Connect(function()
+		--// hides all tabs
+		local tabs = script.Parent.Parent.Parent.Parent.thold
+		for i, v in pairs(tabs:GetChildren()) do
+			if v:IsA("Frame") then
+				v.Visible = false
+			end
+		end
+	
+		--// shows tab u want
+		script.Parent.Parent.Parent.Parent.thold.home.Visible = true
+		--                                /\ PUT TAB NAME THERE	
+	end)
+end
+coroutine.wrap(UMVFK_fake_script)()
+local function BAFAXYE_fake_script() -- ahomebutton.color 
+	local script = Instance.new('LocalScript', ahomebutton)
+
+	-- LocalScript inside the TextButton
+	
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	-- Store the original size, position, and text color
+	local originalSize = button.Size
+	local originalPosition = button.Position
+	local originalTextColor = button.TextColor3
+	
+	-- Define tween information for the bounce effect
+	local tweenInfo = TweenInfo.new(
+		0.1, -- Time
+		Enum.EasingStyle.Quad, -- EasingStyle
+		Enum.EasingDirection.Out -- EasingDirection
+	)
+	
+	-- Define the size increase and position offset for the bounce effect
+	local hoverSizeIncrease = UDim2.new(0, 5, 0, 5)
+	local goalSizeIncrease = UDim2.new(0, 2, 0, 2) -- Slight bounce increase
+	local goalPositionOffset = UDim2.new(0, -1, 0, -1) -- Slight position offset
+	
+	-- Variable to keep track of current tween
+	local currentTween
+	local runningRainbow = false
+	
+	-- Create tween function
+	local function createTween(goal)
+		return TweenService:Create(button, tweenInfo, goal)
+	end
+	
+	-- Function to play bounce effect
+	local function playBounceEffect()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		local goal = {Size = originalSize + hoverSizeIncrease, Position = originalPosition + goalPositionOffset}
+		currentTween = createTween(goal)
+		currentTween:Play()
+		currentTween.Completed:Connect(function()
+			local goal = {Size = originalSize + goalSizeIncrease, Position = originalPosition + goalPositionOffset}
+			currentTween = createTween(goal)
+			currentTween:Play()
+		end)
+	end
+	
+	-- Function to play rainbow effect
+	local function playRainbowEffect()
+		local colors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+	
+		local colorIndex = 1
+		runningRainbow = true
+	
+		while runningRainbow do
+			local nextColor = colors[colorIndex]
+			local colorTween = TweenService:Create(button, tweenInfo, {TextColor3 = nextColor})
+			colorTween:Play()
+	
+			colorTween.Completed:Wait()
+			colorIndex = (colorIndex % #colors) + 1
+		end
+	end
+	
+	-- Hover effect
+	button.MouseEnter:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		playBounceEffect()
+		playRainbowEffect()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+		runningRainbow = false -- Stop the rainbow effect
+	
+		local goal = {Size = originalSize, Position = originalPosition, TextColor3 = originalTextColor}
+		currentTween = createTween(goal)
+		currentTween:Play()
+	end)
+	
+end
+coroutine.wrap(BAFAXYE_fake_script)()
+local function DNHRU_fake_script() -- unibutton.LocalScript 
+	local script = Instance.new('LocalScript', unibutton)
+
+	--// put all of that in a mouse button click function
+	script.Parent.MouseButton1Click:Connect(function()
+		--// hides all tabs
+		local tabs = script.Parent.Parent.Parent.Parent.thold
+		for i, v in pairs(tabs:GetChildren()) do
+			if v:IsA("Frame") then
+				v.Visible = false
+			end
+		end
+	
+		--// shows tab u want
+		script.Parent.Parent.Parent.Parent.thold.universal.Visible = true
+		--                                /\ PUT TAB NAME THERE	
+	end)
+end
+coroutine.wrap(DNHRU_fake_script)()
+local function XWVF_fake_script() -- unibutton.color 
+	local script = Instance.new('LocalScript', unibutton)
+
+	-- LocalScript inside the TextButton
+	
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	-- Store the original size, position, and text color
+	local originalSize = button.Size
+	local originalPosition = button.Position
+	local originalTextColor = button.TextColor3
+	
+	-- Define tween information for the bounce effect
+	local tweenInfo = TweenInfo.new(
+		0.1, -- Time
+		Enum.EasingStyle.Quad, -- EasingStyle
+		Enum.EasingDirection.Out -- EasingDirection
+	)
+	
+	-- Define the size increase and position offset for the bounce effect
+	local hoverSizeIncrease = UDim2.new(0, 5, 0, 5)
+	local goalSizeIncrease = UDim2.new(0, 2, 0, 2) -- Slight bounce increase
+	local goalPositionOffset = UDim2.new(0, -1, 0, -1) -- Slight position offset
+	
+	-- Variable to keep track of current tween
+	local currentTween
+	local runningRainbow = false
+	
+	-- Create tween function
+	local function createTween(goal)
+		return TweenService:Create(button, tweenInfo, goal)
+	end
+	
+	-- Function to play bounce effect
+	local function playBounceEffect()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		local goal = {Size = originalSize + hoverSizeIncrease, Position = originalPosition + goalPositionOffset}
+		currentTween = createTween(goal)
+		currentTween:Play()
+		currentTween.Completed:Connect(function()
+			local goal = {Size = originalSize + goalSizeIncrease, Position = originalPosition + goalPositionOffset}
+			currentTween = createTween(goal)
+			currentTween:Play()
+		end)
+	end
+	
+	-- Function to play rainbow effect
+	local function playRainbowEffect()
+		local colors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+	
+		local colorIndex = 1
+		runningRainbow = true
+	
+		while runningRainbow do
+			local nextColor = colors[colorIndex]
+			local colorTween = TweenService:Create(button, tweenInfo, {TextColor3 = nextColor})
+			colorTween:Play()
+	
+			colorTween.Completed:Wait()
+			colorIndex = (colorIndex % #colors) + 1
+		end
+	end
+	
+	-- Hover effect
+	button.MouseEnter:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		playBounceEffect()
+		playRainbowEffect()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+		runningRainbow = false -- Stop the rainbow effect
+	
+		local goal = {Size = originalSize, Position = originalPosition, TextColor3 = originalTextColor}
+		currentTween = createTween(goal)
+		currentTween:Play()
+	end)
+	
+end
+coroutine.wrap(XWVF_fake_script)()
+local function TMFSN_fake_script() -- mainhold.drags 
+	local script = Instance.new('LocalScript', mainhold)
+
+	spawn(function()
+		local UIS = game:GetService("UserInputService")
+		function normal_dragify(Frame)
+			ndragToggle = nil
+			local ndragSpeed = 0.125
+			ndragInput = nil
+			ndragStart = nil
+			local ndragPos = nil
+			function nupdateInput(input)
+				local nDelta = input.Position - ndragStart
+				local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + nDelta.X, startPos.Y.Scale, startPos.Y.Offset + nDelta.Y)
+				game:GetService("TweenService"):Create(Frame, TweenInfo.new(ndragSpeed), {Position = Position}):Play()
+			end
+			Frame.InputBegan:Connect(function(input)
+				if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+					ndragToggle = true
+					ndragStart = input.Position
+					startPos = Frame.Position
+					input.Changed:Connect(function()
+						if input.UserInputState == Enum.UserInputState.End then
+							ndragToggle = false
+						end
+					end)
+				end
+			end)
+			Frame.InputChanged:Connect(function(input)
+				if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+					ndragInput = input
+				end
+			end)
+			game:GetService("UserInputService").InputChanged:Connect(function(input)
+				if input == ndragInput and ndragToggle then
+					nupdateInput(input)
+				end
+			end)
+		end
+	
+		normal_dragify(script.Parent)
+	end)
+end
+coroutine.wrap(TMFSN_fake_script)()
+local function BQTIWA_fake_script() -- open.LocalScript 
+	local script = Instance.new('LocalScript', open)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.mainhold.Visible = true
+	end)
+end
+coroutine.wrap(BQTIWA_fake_script)()
+local function VEWVY_fake_script() -- open.color 
+	local script = Instance.new('LocalScript', open)
+
+	-- LocalScript inside the TextButton
+	
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	-- Store the original size, position, and text color
+	local originalSize = button.Size
+	local originalPosition = button.Position
+	local originalTextColor = button.TextColor3
+	
+	-- Define tween information for the bounce effect
+	local tweenInfo = TweenInfo.new(
+		0.1, -- Time
+		Enum.EasingStyle.Quad, -- EasingStyle
+		Enum.EasingDirection.Out -- EasingDirection
+	)
+	
+	-- Define the size increase and position offset for the bounce effect
+	local hoverSizeIncrease = UDim2.new(0, 5, 0, 5)
+	local goalSizeIncrease = UDim2.new(0, 2, 0, 2) -- Slight bounce increase
+	local goalPositionOffset = UDim2.new(0, -1, 0, -1) -- Slight position offset
+	
+	-- Variable to keep track of current tween
+	local currentTween
+	local runningRainbow = false
+	
+	-- Create tween function
+	local function createTween(goal)
+		return TweenService:Create(button, tweenInfo, goal)
+	end
+	
+	-- Function to play bounce effect
+	local function playBounceEffect()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		local goal = {Size = originalSize + hoverSizeIncrease, Position = originalPosition + goalPositionOffset}
+		currentTween = createTween(goal)
+		currentTween:Play()
+		currentTween.Completed:Connect(function()
+			local goal = {Size = originalSize + goalSizeIncrease, Position = originalPosition + goalPositionOffset}
+			currentTween = createTween(goal)
+			currentTween:Play()
+		end)
+	end
+	
+	-- Function to play rainbow effect
+	local function playRainbowEffect()
+		local colors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+	
+		local colorIndex = 1
+		runningRainbow = true
+	
+		while runningRainbow do
+			local nextColor = colors[colorIndex]
+			local colorTween = TweenService:Create(button, tweenInfo, {TextColor3 = nextColor})
+			colorTween:Play()
+	
+			colorTween.Completed:Wait()
+			colorIndex = (colorIndex % #colors) + 1
+		end
+	end
+	
+	-- Hover effect
+	button.MouseEnter:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		playBounceEffect()
+		playRainbowEffect()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+		runningRainbow = false -- Stop the rainbow effect
+	
+		local goal = {Size = originalSize, Position = originalPosition, TextColor3 = originalTextColor}
+		currentTween = createTween(goal)
+		currentTween:Play()
+	end)
+	
+end
+coroutine.wrap(VEWVY_fake_script)()
