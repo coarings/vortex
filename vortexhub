@@ -4,28 +4,30 @@
 -- Instances:
 
 local mainmain = Instance.new("ScreenGui")
+local open = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
 local mainhold = Instance.new("Frame")
 local thold = Instance.new("Frame")
 local home = Instance.new("Frame")
 local user = Instance.new("Frame")
-local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
 local UIGradient = Instance.new("UIGradient")
 local TextLabel_2 = Instance.new("TextLabel")
 local UIGradient_2 = Instance.new("UIGradient")
 local ImageLabel = Instance.new("ImageLabel")
-local UICorner_2 = Instance.new("UICorner")
-local exec = Instance.new("Frame")
 local UICorner_3 = Instance.new("UICorner")
+local exec = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
 local TextLabel_3 = Instance.new("TextLabel")
 local UIGradient_3 = Instance.new("UIGradient")
 local ImageLabel_2 = Instance.new("ImageLabel")
 local ImageLabel_3 = Instance.new("ImageLabel")
 local ImageLabel_4 = Instance.new("ImageLabel")
 local ImageLabel_5 = Instance.new("ImageLabel")
-local UICorner_4 = Instance.new("UICorner")
-local ImageLabel_6 = Instance.new("ImageLabel")
 local UICorner_5 = Instance.new("UICorner")
+local ImageLabel_6 = Instance.new("ImageLabel")
+local UICorner_6 = Instance.new("UICorner")
 local TextLabel_4 = Instance.new("TextLabel")
 local minimize = Instance.new("TextButton")
 local destroy = Instance.new("TextButton")
@@ -37,63 +39,106 @@ local back = Instance.new("TextButton")
 local fetitle = Instance.new("TextLabel")
 local TextLabel_6 = Instance.new("TextLabel")
 local UIGradient_5 = Instance.new("UIGradient")
-local fewalk = Instance.new("TextLabel")
 local fejump = Instance.new("TextLabel")
-local jumpbox = Instance.new("TextBox")
-local UICorner_6 = Instance.new("UICorner")
+local walking = Instance.new("Frame")
 local walkslider = Instance.new("Frame")
 local fill = Instance.new("Frame")
+local UIGradient_6 = Instance.new("UIGradient")
+local UICorner_7 = Instance.new("UICorner")
 local trigger = Instance.new("TextButton")
+local walk = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
+local fewalk = Instance.new("TextLabel")
+local UICorner_9 = Instance.new("UICorner")
+local jumping = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local jumpslider = Instance.new("Frame")
+local fill2 = Instance.new("Frame")
+local UIGradient_7 = Instance.new("UIGradient")
+local UICorner_11 = Instance.new("UICorner")
+local trigger2 = Instance.new("TextButton")
+local jump = Instance.new("TextLabel")
+local UICorner_12 = Instance.new("UICorner")
+local fejump_2 = Instance.new("TextLabel")
 local universal = Instance.new("Frame")
 local back_2 = Instance.new("TextButton")
 local unititle = Instance.new("TextLabel")
 local TextLabel_7 = Instance.new("TextLabel")
-local UIGradient_6 = Instance.new("UIGradient")
+local UIGradient_8 = Instance.new("UIGradient")
 local uniscroll = Instance.new("ScrollingFrame")
 local infinitey = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
 local exware = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
+local UICorner_14 = Instance.new("UICorner")
 local zuremod = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
+local UICorner_15 = Instance.new("UICorner")
 local UIListLayout = Instance.new("UIListLayout")
 local prisonware = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
-local zbloxfruits = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
-local solsrng = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
-local zbuild = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
-local cusduels = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
-local nexam = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
-local bsearch = Instance.new("TextBox")
 local UICorner_16 = Instance.new("UICorner")
+local zbloxfruits = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local solsrng = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local zbuild = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local cusduels = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local nexam = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local bsearch = Instance.new("TextBox")
+local UICorner_22 = Instance.new("UICorner")
 local ImageLabel_7 = Instance.new("ImageLabel")
 local atitle = Instance.new("TextLabel")
 local taskbar = Instance.new("Frame")
 local title_2 = Instance.new("TextLabel")
 local TextLabel_8 = Instance.new("TextLabel")
-local UIGradient_7 = Instance.new("UIGradient")
+local UIGradient_9 = Instance.new("UIGradient")
 local buttonhold = Instance.new("Frame")
 local funbutton = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
+local UICorner_23 = Instance.new("UICorner")
 local ahomebutton = Instance.new("TextButton")
-local UICorner_18 = Instance.new("UICorner")
+local UICorner_24 = Instance.new("UICorner")
 local unibutton = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
+local UICorner_25 = Instance.new("UICorner")
 local UIListLayout_2 = Instance.new("UIListLayout")
 local UIPadding = Instance.new("UIPadding")
-local open = Instance.new("TextButton")
-local UICorner_20 = Instance.new("UICorner")
+local keysys = Instance.new("Frame")
+local UICorner_26 = Instance.new("UICorner")
+local titlebar = Instance.new("Frame")
+local UICorner_27 = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local title_3 = Instance.new("TextLabel")
+local title_4 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local UIGradient_10 = Instance.new("UIGradient")
+local submit = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local keybox = Instance.new("TextBox")
+local UICorner_29 = Instance.new("UICorner")
+local clipboard = Instance.new("ImageButton")
+local exit2 = Instance.new("TextButton")
 
 --Properties:
 
 mainmain.Name = "mainmain"
 mainmain.Parent = game.CoreGui
 mainmain.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+open.Name = "open"
+open.Parent = mainmain
+open.AnchorPoint = Vector2.new(0.5, 0.5)
+open.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+open.BorderColor3 = Color3.fromRGB(0, 0, 0)
+open.BorderSizePixel = 0
+open.Position = UDim2.new(0.5, 0, 0.0888337418, 0)
+open.Size = UDim2.new(0, 200, 0, 32)
+open.Font = Enum.Font.Gotham
+open.Text = "OPEN VORTEX"
+open.TextColor3 = Color3.fromRGB(255, 255, 255)
+open.TextSize = 14.000
+
+UICorner.CornerRadius = UDim.new(0, 4)
+UICorner.Parent = open
 
 mainhold.Name = "mainhold"
 mainhold.Parent = mainmain
@@ -104,6 +149,7 @@ mainhold.BorderColor3 = Color3.fromRGB(0, 0, 0)
 mainhold.BorderSizePixel = 0
 mainhold.Position = UDim2.new(0.5, 50, 0.5, 0)
 mainhold.Size = UDim2.new(0, 342, 0, 285)
+mainhold.Visible = false
 
 thold.Name = "thold"
 thold.Parent = mainhold
@@ -128,7 +174,7 @@ user.BorderColor3 = Color3.fromRGB(27, 42, 53)
 user.Position = UDim2.new(0.0847953185, 0, 0.147368416, 0)
 user.Size = UDim2.new(0, 281, 0, 91)
 
-UICorner.Parent = user
+UICorner_2.Parent = user
 
 TextLabel.Parent = user
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -164,8 +210,8 @@ ImageLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
 ImageLabel.Position = UDim2.new(0.0264130179, 0, 0.073333405, 0)
 ImageLabel.Size = UDim2.new(0, 77, 0, 77)
 
-UICorner_2.CornerRadius = UDim.new(10, 0)
-UICorner_2.Parent = ImageLabel
+UICorner_3.CornerRadius = UDim.new(10, 0)
+UICorner_3.Parent = ImageLabel
 
 exec.Name = "exec"
 exec.Parent = home
@@ -174,7 +220,7 @@ exec.BorderColor3 = Color3.fromRGB(27, 42, 53)
 exec.Position = UDim2.new(0.0847953185, 0, 0.515789449, 0)
 exec.Size = UDim2.new(0, 281, 0, 91)
 
-UICorner_3.Parent = exec
+UICorner_4.Parent = exec
 
 TextLabel_3.Parent = exec
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -226,8 +272,8 @@ ImageLabel_5.Position = UDim2.new(0.604982197, 0, 0.35164836, 0)
 ImageLabel_5.Size = UDim2.new(0, 45, 0, 43)
 ImageLabel_5.Image = "rbxassetid://18389868487"
 
-UICorner_4.CornerRadius = UDim.new(1, 0)
-UICorner_4.Parent = ImageLabel_5
+UICorner_5.CornerRadius = UDim.new(1, 0)
+UICorner_5.Parent = ImageLabel_5
 
 ImageLabel_6.Parent = exec
 ImageLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -238,8 +284,8 @@ ImageLabel_6.Position = UDim2.new(0.77935946, 0, 0.274725288, 0)
 ImageLabel_6.Size = UDim2.new(0, 62, 0, 56)
 ImageLabel_6.Image = "rbxassetid://18389895498"
 
-UICorner_5.CornerRadius = UDim.new(1, 0)
-UICorner_5.Parent = ImageLabel_6
+UICorner_6.CornerRadius = UDim.new(1, 0)
+UICorner_6.Parent = ImageLabel_6
 
 TextLabel_4.Parent = home
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -352,7 +398,7 @@ TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_6.BackgroundTransparency = 1.000
 TextLabel_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
 TextLabel_6.BorderSizePixel = 0
-TextLabel_6.Position = UDim2.new(0.829304159, 0, 0, 0)
+TextLabel_6.Position = UDim2.new(0.810256541, 0, 0, 0)
 TextLabel_6.Size = UDim2.new(0, 40, 0, 32)
 TextLabel_6.Font = Enum.Font.GothamMedium
 TextLabel_6.Text = "FUN"
@@ -360,19 +406,6 @@ TextLabel_6.TextColor3 = Color3.fromRGB(0, 255, 234)
 TextLabel_6.TextSize = 14.000
 
 UIGradient_5.Parent = TextLabel_6
-
-fewalk.Name = "fewalk"
-fewalk.Parent = fun
-fewalk.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-fewalk.BackgroundTransparency = 1.000
-fewalk.BorderColor3 = Color3.fromRGB(27, 42, 53)
-fewalk.BorderSizePixel = 0
-fewalk.Position = UDim2.new(0.0439177491, 0, 0.13333334, 0)
-fewalk.Size = UDim2.new(0, 97, 0, 32)
-fewalk.Font = Enum.Font.GothamMedium
-fewalk.Text = "WALKSPEED"
-fewalk.TextColor3 = Color3.fromRGB(255, 255, 255)
-fewalk.TextSize = 14.000
 
 fejump.Name = "fejump"
 fejump.Parent = fun
@@ -387,35 +420,33 @@ fejump.Text = "JUMP POWER"
 fejump.TextColor3 = Color3.fromRGB(255, 255, 255)
 fejump.TextSize = 14.000
 
-jumpbox.Name = "jumpbox"
-jumpbox.Parent = fun
-jumpbox.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-jumpbox.BorderColor3 = Color3.fromRGB(0, 0, 0)
-jumpbox.BorderSizePixel = 0
-jumpbox.Position = UDim2.new(0.363636404, 0, 0.263157904, 0)
-jumpbox.Size = UDim2.new(0, 200, 0, 23)
-jumpbox.Font = Enum.Font.Gotham
-jumpbox.Text = "50"
-jumpbox.TextColor3 = Color3.fromRGB(255, 255, 255)
-jumpbox.TextSize = 14.000
-
-UICorner_6.CornerRadius = UDim.new(0, 4)
-UICorner_6.Parent = jumpbox
+walking.Name = "walking"
+walking.Parent = fun
+walking.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+walking.BorderColor3 = Color3.fromRGB(0, 0, 0)
+walking.BorderSizePixel = 0
+walking.Position = UDim2.new(0.0204678364, 0, 0.13333334, 0)
+walking.Size = UDim2.new(0, 325, 0, 32)
 
 walkslider.Name = "walkslider"
-walkslider.Parent = fun
-walkslider.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+walkslider.Parent = walking
+walkslider.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
 walkslider.BorderColor3 = Color3.fromRGB(0, 0, 0)
 walkslider.BorderSizePixel = 0
-walkslider.Position = UDim2.new(0.362573087, 0, 0.164912283, 0)
-walkslider.Size = UDim2.new(0, 200, 0, 13)
+walkslider.Position = UDim2.new(0.314341754, 0, 0.289912224, 0)
+walkslider.Size = UDim2.new(0, 213, 0, 13)
 
 fill.Name = "fill"
 fill.Parent = walkslider
 fill.BackgroundColor3 = Color3.fromRGB(0, 255, 234)
 fill.BorderColor3 = Color3.fromRGB(0, 0, 0)
 fill.BorderSizePixel = 0
-fill.Size = UDim2.new(0, 8, 0, 13)
+fill.Position = UDim2.new(0.00999999978, 0, 0, 0)
+fill.Size = UDim2.new(0, 15, 0, 13)
+
+UIGradient_6.Parent = fill
+
+UICorner_7.Parent = fill
 
 trigger.Name = "trigger"
 trigger.Parent = walkslider
@@ -430,6 +461,113 @@ trigger.Font = Enum.Font.SourceSans
 trigger.Text = ""
 trigger.TextColor3 = Color3.fromRGB(0, 0, 0)
 trigger.TextSize = 14.000
+trigger.TextStrokeTransparency = 0.000
+
+walk.Name = "walk"
+walk.Parent = walkslider
+walk.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+walk.BackgroundTransparency = 1.000
+walk.BorderColor3 = Color3.fromRGB(0, 0, 0)
+walk.BorderSizePixel = 0
+walk.Position = UDim2.new(0.010000376, 0, -0.0769230798, 0)
+walk.Size = UDim2.new(0, 208, 0, 13)
+walk.Font = Enum.Font.GothamBold
+walk.Text = "100"
+walk.TextColor3 = Color3.fromRGB(255, 255, 255)
+walk.TextSize = 14.000
+walk.TextStrokeTransparency = 0.000
+
+UICorner_8.Parent = walkslider
+
+fewalk.Name = "fewalk"
+fewalk.Parent = walking
+fewalk.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fewalk.BackgroundTransparency = 1.000
+fewalk.BorderColor3 = Color3.fromRGB(27, 42, 53)
+fewalk.BorderSizePixel = 0
+fewalk.Position = UDim2.new(0.0053326278, 0, -0.0229167938, 0)
+fewalk.Size = UDim2.new(0, 97, 0, 32)
+fewalk.Font = Enum.Font.GothamMedium
+fewalk.Text = "WALKSPEED"
+fewalk.TextColor3 = Color3.fromRGB(255, 255, 255)
+fewalk.TextSize = 14.000
+
+UICorner_9.CornerRadius = UDim.new(0, 3)
+UICorner_9.Parent = walking
+
+jumping.Name = "jumping"
+jumping.Parent = fun
+jumping.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+jumping.BorderColor3 = Color3.fromRGB(0, 0, 0)
+jumping.BorderSizePixel = 0
+jumping.Position = UDim2.new(0.0204678364, 0, 0.27719298, 0)
+jumping.Size = UDim2.new(0, 325, 0, 32)
+
+UICorner_10.CornerRadius = UDim.new(0, 3)
+UICorner_10.Parent = jumping
+
+jumpslider.Name = "jumpslider"
+jumpslider.Parent = jumping
+jumpslider.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+jumpslider.BorderColor3 = Color3.fromRGB(0, 0, 0)
+jumpslider.BorderSizePixel = 0
+jumpslider.Position = UDim2.new(0.32040453, 0, 0.370943069, 0)
+jumpslider.Size = UDim2.new(0, 211, 0, 13)
+
+fill2.Name = "fill2"
+fill2.Parent = jumpslider
+fill2.BackgroundColor3 = Color3.fromRGB(0, 255, 234)
+fill2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+fill2.BorderSizePixel = 0
+fill2.Size = UDim2.new(0, 15, 0, 13)
+
+UIGradient_7.Parent = fill2
+
+UICorner_11.Parent = fill2
+
+trigger2.Name = "trigger2"
+trigger2.Parent = jumpslider
+trigger2.AnchorPoint = Vector2.new(0, 0.5)
+trigger2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+trigger2.BackgroundTransparency = 1.000
+trigger2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+trigger2.BorderSizePixel = 0
+trigger2.Position = UDim2.new(0, 0, 0.5, 0)
+trigger2.Size = UDim2.new(1, 0, 1, 0)
+trigger2.Font = Enum.Font.SourceSans
+trigger2.Text = ""
+trigger2.TextColor3 = Color3.fromRGB(0, 0, 0)
+trigger2.TextSize = 14.000
+trigger2.TextStrokeTransparency = 0.000
+
+jump.Name = "jump"
+jump.Parent = jumpslider
+jump.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+jump.BackgroundTransparency = 1.000
+jump.BorderColor3 = Color3.fromRGB(0, 0, 0)
+jump.BorderSizePixel = 0
+jump.Position = UDim2.new(-0.0131627666, 0, 0.0769230798, 0)
+jump.Size = UDim2.new(0, 211, 0, 13)
+jump.Font = Enum.Font.GothamBold
+jump.Text = "100"
+jump.TextColor3 = Color3.fromRGB(255, 255, 255)
+jump.TextSize = 14.000
+jump.TextStrokeTransparency = 0.000
+
+UICorner_12.Parent = jumpslider
+
+fejump_2.Name = "fejump"
+fejump_2.Parent = jumpslider
+fejump_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fejump_2.BackgroundTransparency = 1.000
+fejump_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+fejump_2.BorderSizePixel = 0
+fejump_2.Position = UDim2.new(-0.463861704, 0, -0.775320172, 0)
+fejump_2.Size = UDim2.new(0, 97, 0, 32)
+fejump_2.Font = Enum.Font.GothamMedium
+fejump_2.Text = "JUMP POWER"
+fejump_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+fejump_2.TextSize = 14.000
 
 universal.Name = "universal"
 universal.Parent = thold
@@ -480,7 +618,7 @@ TextLabel_7.Text = "UNIVERSAL"
 TextLabel_7.TextColor3 = Color3.fromRGB(0, 255, 234)
 TextLabel_7.TextSize = 14.000
 
-UIGradient_6.Parent = TextLabel_7
+UIGradient_8.Parent = TextLabel_7
 
 uniscroll.Name = "uniscroll"
 uniscroll.Parent = universal
@@ -506,8 +644,8 @@ infinitey.TextColor3 = Color3.fromRGB(255, 255, 255)
 infinitey.TextSize = 10.000
 infinitey.TextWrapped = true
 
-UICorner_7.CornerRadius = UDim.new(0, 4)
-UICorner_7.Parent = infinitey
+UICorner_13.CornerRadius = UDim.new(0, 4)
+UICorner_13.Parent = infinitey
 
 exware.Name = "exware"
 exware.Parent = uniscroll
@@ -522,8 +660,8 @@ exware.TextColor3 = Color3.fromRGB(255, 255, 255)
 exware.TextSize = 12.000
 exware.TextWrapped = true
 
-UICorner_8.CornerRadius = UDim.new(0, 4)
-UICorner_8.Parent = exware
+UICorner_14.CornerRadius = UDim.new(0, 4)
+UICorner_14.Parent = exware
 
 zuremod.Name = "zuremod"
 zuremod.Parent = uniscroll
@@ -538,8 +676,8 @@ zuremod.TextColor3 = Color3.fromRGB(255, 255, 255)
 zuremod.TextSize = 12.000
 zuremod.TextWrapped = true
 
-UICorner_9.CornerRadius = UDim.new(0, 4)
-UICorner_9.Parent = zuremod
+UICorner_15.CornerRadius = UDim.new(0, 4)
+UICorner_15.Parent = zuremod
 
 UIListLayout.Parent = uniscroll
 UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
@@ -558,8 +696,8 @@ prisonware.TextColor3 = Color3.fromRGB(255, 255, 255)
 prisonware.TextSize = 12.000
 prisonware.TextWrapped = true
 
-UICorner_10.CornerRadius = UDim.new(0, 4)
-UICorner_10.Parent = prisonware
+UICorner_16.CornerRadius = UDim.new(0, 4)
+UICorner_16.Parent = prisonware
 
 zbloxfruits.Name = "zbloxfruits"
 zbloxfruits.Parent = uniscroll
@@ -574,8 +712,8 @@ zbloxfruits.TextColor3 = Color3.fromRGB(255, 255, 255)
 zbloxfruits.TextSize = 12.000
 zbloxfruits.TextWrapped = true
 
-UICorner_11.CornerRadius = UDim.new(0, 4)
-UICorner_11.Parent = zbloxfruits
+UICorner_17.CornerRadius = UDim.new(0, 4)
+UICorner_17.Parent = zbloxfruits
 
 solsrng.Name = "sols rng"
 solsrng.Parent = uniscroll
@@ -590,8 +728,8 @@ solsrng.TextColor3 = Color3.fromRGB(255, 255, 255)
 solsrng.TextSize = 12.000
 solsrng.TextWrapped = true
 
-UICorner_12.CornerRadius = UDim.new(0, 4)
-UICorner_12.Parent = solsrng
+UICorner_18.CornerRadius = UDim.new(0, 4)
+UICorner_18.Parent = solsrng
 
 zbuild.Name = "zbuild"
 zbuild.Parent = uniscroll
@@ -606,8 +744,8 @@ zbuild.TextColor3 = Color3.fromRGB(255, 255, 255)
 zbuild.TextSize = 10.000
 zbuild.TextWrapped = true
 
-UICorner_13.CornerRadius = UDim.new(0, 4)
-UICorner_13.Parent = zbuild
+UICorner_19.CornerRadius = UDim.new(0, 4)
+UICorner_19.Parent = zbuild
 
 cusduels.Name = "cusduels"
 cusduels.Parent = uniscroll
@@ -622,8 +760,8 @@ cusduels.TextColor3 = Color3.fromRGB(255, 255, 255)
 cusduels.TextSize = 12.000
 cusduels.TextWrapped = true
 
-UICorner_14.CornerRadius = UDim.new(0, 4)
-UICorner_14.Parent = cusduels
+UICorner_20.CornerRadius = UDim.new(0, 4)
+UICorner_20.Parent = cusduels
 
 nexam.Name = "nexam"
 nexam.Parent = uniscroll
@@ -638,8 +776,8 @@ nexam.TextColor3 = Color3.fromRGB(255, 255, 255)
 nexam.TextSize = 12.000
 nexam.TextWrapped = true
 
-UICorner_15.CornerRadius = UDim.new(0, 4)
-UICorner_15.Parent = nexam
+UICorner_21.CornerRadius = UDim.new(0, 4)
+UICorner_21.Parent = nexam
 
 bsearch.Name = "bsearch"
 bsearch.Parent = universal
@@ -653,8 +791,8 @@ bsearch.Text = ""
 bsearch.TextColor3 = Color3.fromRGB(255, 255, 255)
 bsearch.TextSize = 14.000
 
-UICorner_16.CornerRadius = UDim.new(0, 4)
-UICorner_16.Parent = bsearch
+UICorner_22.CornerRadius = UDim.new(0, 4)
+UICorner_22.Parent = bsearch
 
 ImageLabel_7.Parent = bsearch
 ImageLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -710,7 +848,7 @@ TextLabel_8.Text = "TEX"
 TextLabel_8.TextColor3 = Color3.fromRGB(0, 255, 234)
 TextLabel_8.TextSize = 14.000
 
-UIGradient_7.Parent = TextLabel_8
+UIGradient_9.Parent = TextLabel_8
 
 buttonhold.Name = "buttonhold"
 buttonhold.Parent = taskbar
@@ -733,8 +871,8 @@ funbutton.Text = "FUN SCRIPTS"
 funbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
 funbutton.TextSize = 14.000
 
-UICorner_17.CornerRadius = UDim.new(0, 4)
-UICorner_17.Parent = funbutton
+UICorner_23.CornerRadius = UDim.new(0, 4)
+UICorner_23.Parent = funbutton
 
 ahomebutton.Name = "ahomebutton"
 ahomebutton.Parent = buttonhold
@@ -748,8 +886,8 @@ ahomebutton.Text = "HOME"
 ahomebutton.TextColor3 = Color3.fromRGB(255, 255, 255)
 ahomebutton.TextSize = 14.000
 
-UICorner_18.CornerRadius = UDim.new(0, 4)
-UICorner_18.Parent = ahomebutton
+UICorner_24.CornerRadius = UDim.new(0, 4)
+UICorner_24.Parent = ahomebutton
 
 unibutton.Name = "unibutton"
 unibutton.Parent = buttonhold
@@ -763,8 +901,8 @@ unibutton.Text = "UNIVERSAL"
 unibutton.TextColor3 = Color3.fromRGB(255, 255, 255)
 unibutton.TextSize = 14.000
 
-UICorner_19.CornerRadius = UDim.new(0, 4)
-UICorner_19.Parent = unibutton
+UICorner_25.CornerRadius = UDim.new(0, 4)
+UICorner_25.Parent = unibutton
 
 UIListLayout_2.Parent = buttonhold
 UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
@@ -773,37 +911,249 @@ UIListLayout_2.Padding = UDim.new(0, 3)
 UIPadding.Parent = buttonhold
 UIPadding.PaddingLeft = UDim.new(0, 3)
 
-open.Name = "open"
-open.Parent = mainmain
-open.AnchorPoint = Vector2.new(0.5, 0.5)
-open.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
-open.BorderColor3 = Color3.fromRGB(0, 0, 0)
-open.BorderSizePixel = 0
-open.Position = UDim2.new(0.5, 0, 0.0888337418, 0)
-open.Size = UDim2.new(0, 200, 0, 32)
-open.Font = Enum.Font.Gotham
-open.Text = "OPEN VORTEX"
-open.TextColor3 = Color3.fromRGB(255, 255, 255)
-open.TextSize = 14.000
+keysys.Name = "keysys"
+keysys.Parent = mainmain
+keysys.AnchorPoint = Vector2.new(0.5, 0.5)
+keysys.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+keysys.BorderColor3 = Color3.fromRGB(0, 0, 0)
+keysys.BorderSizePixel = 0
+keysys.Position = UDim2.new(0.504566252, 0, 0.475053906, 0)
+keysys.Size = UDim2.new(0, 254, 0, 213)
 
-UICorner_20.CornerRadius = UDim.new(0, 4)
-UICorner_20.Parent = open
+UICorner_26.CornerRadius = UDim.new(0, 4)
+UICorner_26.Parent = keysys
+
+titlebar.Name = "titlebar"
+titlebar.Parent = keysys
+titlebar.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+titlebar.BorderColor3 = Color3.fromRGB(0, 0, 0)
+titlebar.BorderSizePixel = 0
+titlebar.Size = UDim2.new(0, 254, 0, 44)
+
+UICorner_27.CornerRadius = UDim.new(0, 4)
+UICorner_27.Parent = titlebar
+
+Frame.Parent = titlebar
+Frame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0, 0, 0.859375, 0)
+Frame.Size = UDim2.new(0, 254, 0, 9)
+
+title_3.Name = "title"
+title_3.Parent = keysys
+title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title_3.BackgroundTransparency = 1.000
+title_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+title_3.BorderSizePixel = 0
+title_3.Position = UDim2.new(0, 0, 0.111005329, 0)
+title_3.Size = UDim2.new(0, 254, 0, 20)
+title_3.Font = Enum.Font.GothamMedium
+title_3.Text = "KEY SYSTEM"
+title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+title_3.TextSize = 14.000
+
+title_4.Name = "title"
+title_4.Parent = keysys
+title_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title_4.BackgroundTransparency = 1.000
+title_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+title_4.BorderSizePixel = 0
+title_4.Position = UDim2.new(0.375454158, 0, 0, 0)
+title_4.Size = UDim2.new(0, 40, 0, 32)
+title_4.Font = Enum.Font.GothamMedium
+title_4.Text = "VOR"
+title_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+title_4.TextSize = 14.000
+
+TextLabel_9.Parent = title_4
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0.61428678, 0, 0, 0)
+TextLabel_9.Size = UDim2.new(0, 40, 0, 32)
+TextLabel_9.Font = Enum.Font.GothamMedium
+TextLabel_9.Text = "TEX"
+TextLabel_9.TextColor3 = Color3.fromRGB(0, 255, 234)
+TextLabel_9.TextSize = 14.000
+
+UIGradient_10.Parent = TextLabel_9
+
+submit.Name = "submit"
+submit.Parent = keysys
+submit.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+submit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+submit.BorderSizePixel = 0
+submit.Position = UDim2.new(0.105845056, 0, 0.56807512, 0)
+submit.Size = UDim2.new(0, 200, 0, 28)
+submit.Font = Enum.Font.GothamBold
+submit.Text = "SUBMIT"
+submit.TextColor3 = Color3.fromRGB(255, 255, 255)
+submit.TextSize = 14.000
+
+UICorner_28.CornerRadius = UDim.new(0, 4)
+UICorner_28.Parent = submit
+
+keybox.Name = "keybox"
+keybox.Parent = keysys
+keybox.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+keybox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+keybox.BorderSizePixel = 0
+keybox.Position = UDim2.new(0.105845056, 0, 0.267605633, 0)
+keybox.Size = UDim2.new(0, 200, 0, 50)
+keybox.Font = Enum.Font.Gotham
+keybox.Text = "ENTER KEY HERE"
+keybox.TextColor3 = Color3.fromRGB(255, 255, 255)
+keybox.TextSize = 14.000
+
+UICorner_29.CornerRadius = UDim.new(0, 4)
+UICorner_29.Parent = keybox
+
+clipboard.Name = "clipboard"
+clipboard.Parent = keysys
+clipboard.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+clipboard.BackgroundTransparency = 1.000
+clipboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+clipboard.BorderSizePixel = 0
+clipboard.Position = UDim2.new(0.0236220472, 0, 0.0140845068, 0)
+clipboard.Size = UDim2.new(0, 38, 0, 37)
+clipboard.Image = "rbxassetid://18401695661"
+
+exit2.Name = "exit2"
+exit2.Parent = keysys
+exit2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+exit2.BackgroundTransparency = 1.000
+exit2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+exit2.BorderSizePixel = 0
+exit2.Position = UDim2.new(0.826771677, 0, 0.0140845068, 0)
+exit2.Size = UDim2.new(0, 44, 0, 29)
+exit2.Font = Enum.Font.GothamBold
+exit2.Text = "X"
+exit2.TextColor3 = Color3.fromRGB(255, 255, 255)
+exit2.TextSize = 14.000
 
 -- Scripts:
 
-local function MHZMMST_fake_script() -- mainmain.welcome 
+local function NDRHIWK_fake_script() -- mainmain.welcome 
 	local script = Instance.new('LocalScript', mainmain)
 
 	game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("Welcome to Vortex Premium, "..game.Players.LocalPlayer.Name..".")
 end
-coroutine.wrap(MHZMMST_fake_script)()
-local function TFOX_fake_script() -- TextLabel.LocalScript 
+coroutine.wrap(NDRHIWK_fake_script)()
+local function OWPYTD_fake_script() -- open.LocalScript 
+	local script = Instance.new('LocalScript', open)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.mainhold.Visible = true
+	end)
+end
+coroutine.wrap(OWPYTD_fake_script)()
+local function ISCNGFT_fake_script() -- open.color 
+	local script = Instance.new('LocalScript', open)
+
+	-- LocalScript inside the TextButton
+	
+	local button = script.Parent
+	local TweenService = game:GetService("TweenService")
+	
+	-- Store the original size, position, and text color
+	local originalSize = button.Size
+	local originalPosition = button.Position
+	local originalTextColor = button.TextColor3
+	
+	-- Define tween information for the bounce effect
+	local tweenInfo = TweenInfo.new(
+		0.1, -- Time
+		Enum.EasingStyle.Quad, -- EasingStyle
+		Enum.EasingDirection.Out -- EasingDirection
+	)
+	
+	-- Define the size increase and position offset for the bounce effect
+	local hoverSizeIncrease = UDim2.new(0, 5, 0, 5)
+	local goalSizeIncrease = UDim2.new(0, 2, 0, 2) -- Slight bounce increase
+	local goalPositionOffset = UDim2.new(0, -1, 0, -1) -- Slight position offset
+	
+	-- Variable to keep track of current tween
+	local currentTween
+	local runningRainbow = false
+	
+	-- Create tween function
+	local function createTween(goal)
+		return TweenService:Create(button, tweenInfo, goal)
+	end
+	
+	-- Function to play bounce effect
+	local function playBounceEffect()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		local goal = {Size = originalSize + hoverSizeIncrease, Position = originalPosition + goalPositionOffset}
+		currentTween = createTween(goal)
+		currentTween:Play()
+		currentTween.Completed:Connect(function()
+			local goal = {Size = originalSize + goalSizeIncrease, Position = originalPosition + goalPositionOffset}
+			currentTween = createTween(goal)
+			currentTween:Play()
+		end)
+	end
+	
+	-- Function to play rainbow effect
+	local function playRainbowEffect()
+		local colors = {
+			Color3.fromRGB(255, 0, 0),    -- Red
+			Color3.fromRGB(255, 127, 0),  -- Orange
+			Color3.fromRGB(255, 255, 0),  -- Yellow
+			Color3.fromRGB(0, 255, 0),    -- Green
+			Color3.fromRGB(0, 0, 255),    -- Blue
+			Color3.fromRGB(75, 0, 130),   -- Indigo
+			Color3.fromRGB(148, 0, 211)   -- Violet
+		}
+	
+		local colorIndex = 1
+		runningRainbow = true
+	
+		while runningRainbow do
+			local nextColor = colors[colorIndex]
+			local colorTween = TweenService:Create(button, tweenInfo, {TextColor3 = nextColor})
+			colorTween:Play()
+	
+			colorTween.Completed:Wait()
+			colorIndex = (colorIndex % #colors) + 1
+		end
+	end
+	
+	-- Hover effect
+	button.MouseEnter:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+	
+		playBounceEffect()
+		playRainbowEffect()
+	end)
+	
+	button.MouseLeave:Connect(function()
+		if currentTween then
+			currentTween:Cancel()
+		end
+		runningRainbow = false -- Stop the rainbow effect
+	
+		local goal = {Size = originalSize, Position = originalPosition, TextColor3 = originalTextColor}
+		currentTween = createTween(goal)
+		currentTween:Play()
+	end)
+	
+end
+coroutine.wrap(ISCNGFT_fake_script)()
+local function MRISU_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	script.Parent.Text = "Welcome, "..game.Players.LocalPlayer.Name
 end
-coroutine.wrap(TFOX_fake_script)()
-local function AMBBFSE_fake_script() -- TextLabel.LocalScript 
+coroutine.wrap(MRISU_fake_script)()
+local function ENQCFKR_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	local text = script.Parent
@@ -859,14 +1209,14 @@ local function AMBBFSE_fake_script() -- TextLabel.LocalScript
 		end
 	end
 end
-coroutine.wrap(AMBBFSE_fake_script)()
-local function BOZLOPV_fake_script() -- TextLabel_2.LocalScript 
+coroutine.wrap(ENQCFKR_fake_script)()
+local function FCPDC_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
 	script.Parent.Text = "@"..game.Players.LocalPlayer.Name
 end
-coroutine.wrap(BOZLOPV_fake_script)()
-local function VMAV_fake_script() -- TextLabel_2.LocalScript 
+coroutine.wrap(FCPDC_fake_script)()
+local function BAWS_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
 	local text = script.Parent
@@ -922,8 +1272,8 @@ local function VMAV_fake_script() -- TextLabel_2.LocalScript
 		end
 	end
 end
-coroutine.wrap(VMAV_fake_script)()
-local function CLSJO_fake_script() -- ImageLabel.LocalScript 
+coroutine.wrap(BAWS_fake_script)()
+local function POSOUY_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	imagelabel = script.Parent
@@ -940,8 +1290,8 @@ local function CLSJO_fake_script() -- ImageLabel.LocalScript
 	local imagelabel = script.Parent
 	imagelabel.Image = content
 end
-coroutine.wrap(CLSJO_fake_script)()
-local function ICTKOR_fake_script() -- TextLabel_3.LocalScript 
+coroutine.wrap(POSOUY_fake_script)()
+local function MAJOOL_fake_script() -- TextLabel_3.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_3)
 
 	local text = script.Parent
@@ -997,16 +1347,16 @@ local function ICTKOR_fake_script() -- TextLabel_3.LocalScript
 		end
 	end
 end
-coroutine.wrap(ICTKOR_fake_script)()
-local function GALELBK_fake_script() -- minimize.LocalScript 
+coroutine.wrap(MAJOOL_fake_script)()
+local function RMSMIKA_fake_script() -- minimize.LocalScript 
 	local script = Instance.new('LocalScript', minimize)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.Parent.mainhold.Visible = false
 	end)
 end
-coroutine.wrap(GALELBK_fake_script)()
-local function UBMIDJ_fake_script() -- minimize.color 
+coroutine.wrap(RMSMIKA_fake_script)()
+local function ILFPU_fake_script() -- minimize.color 
 	local script = Instance.new('LocalScript', minimize)
 
 	-- LocalScript inside the TextButton
@@ -1069,8 +1419,8 @@ local function UBMIDJ_fake_script() -- minimize.color
 	end)
 	
 end
-coroutine.wrap(UBMIDJ_fake_script)()
-local function CVNVLD_fake_script() -- destroy.color 
+coroutine.wrap(ILFPU_fake_script)()
+local function WHFQBP_fake_script() -- destroy.color 
 	local script = Instance.new('LocalScript', destroy)
 
 	-- LocalScript inside the TextButton
@@ -1133,16 +1483,16 @@ local function CVNVLD_fake_script() -- destroy.color
 	end)
 	
 end
-coroutine.wrap(CVNVLD_fake_script)()
-local function FSNO_fake_script() -- destroy.destroyscript 
+coroutine.wrap(WHFQBP_fake_script)()
+local function EMQENKG_fake_script() -- destroy.destroyscript 
 	local script = Instance.new('LocalScript', destroy)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(FSNO_fake_script)()
-local function GLQXQTR_fake_script() -- TextLabel_5.LocalScript 
+coroutine.wrap(EMQENKG_fake_script)()
+local function PXBL_fake_script() -- TextLabel_5.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_5)
 
 	local text = script.Parent
@@ -1198,8 +1548,8 @@ local function GLQXQTR_fake_script() -- TextLabel_5.LocalScript
 		end
 	end
 end
-coroutine.wrap(GLQXQTR_fake_script)()
-local function EPRIJLI_fake_script() -- back.backscript 
+coroutine.wrap(PXBL_fake_script)()
+local function ZNRI_fake_script() -- back.backscript 
 	local script = Instance.new('LocalScript', back)
 
 	--// put all of that in a mouse button click function
@@ -1217,8 +1567,8 @@ local function EPRIJLI_fake_script() -- back.backscript
 		--                                /\ PUT TAB NAME THERE	
 	end)
 end
-coroutine.wrap(EPRIJLI_fake_script)()
-local function BUZIO_fake_script() -- TextLabel_6.LocalScript 
+coroutine.wrap(ZNRI_fake_script)()
+local function AIMTV_fake_script() -- TextLabel_6.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_6)
 
 	local text = script.Parent
@@ -1274,33 +1624,31 @@ local function BUZIO_fake_script() -- TextLabel_6.LocalScript
 		end
 	end
 end
-coroutine.wrap(BUZIO_fake_script)()
-local function LYZEPB_fake_script() -- jumpbox.jumpscript 
-	local script = Instance.new('LocalScript', jumpbox)
-
-	local plr = game.Players.LocalPlayer
-	local char = plr.Character
-	local hum = char:WaitForChild("Humanoid")
-	
-	
-	script.Parent.Changed:Connect(function()
-		hum.JumpPower = script.Parent.Text
-	end)
-end
-coroutine.wrap(LYZEPB_fake_script)()
-local function TTXYL_fake_script() -- walkslider.updater 
+coroutine.wrap(AIMTV_fake_script)()
+local function AWHJQA_fake_script() -- walkslider.updater 
 	local script = Instance.new('LocalScript', walkslider)
 
 	local UserInputService = game:GetService("UserInputService")
+	local Players = game:GetService("Players") -- Get the Players service
 	local slider = script.Parent
 	local fill = script.Parent.fill
 	local trigger = script.Parent.trigger
 	
 	local slideractive = false
+	local minWalkSpeed = 16 -- Minimum walk speed
+	local maxWalkSpeed = 500 -- Maximum walk speed
 	
+	-- Function to map slider value to walk speed
 	function UpdateSlider(input)
 		local output = math.clamp((input.Position.X - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
 		fill.Size = UDim2.fromScale(output, 1)
+	
+		-- Calculate the walk speed based on the slider value
+		local walkSpeed = minWalkSpeed + (maxWalkSpeed - minWalkSpeed) * output
+		local player = Players.LocalPlayer
+		if player and player.Character and player.Character:FindFirstChild("Humanoid") then
+			player.Character.Humanoid.WalkSpeed = walkSpeed
+		end
 	end
 	
 	function activateslider()
@@ -1324,8 +1672,202 @@ local function TTXYL_fake_script() -- walkslider.updater
 	end)
 	
 end
-coroutine.wrap(TTXYL_fake_script)()
-local function QERWGCE_fake_script() -- back_2.backscript 
+coroutine.wrap(AWHJQA_fake_script)()
+local function CSGS_fake_script() -- fill.LocalScript 
+	local script = Instance.new('LocalScript', fill)
+
+	local frame = script.Parent -- Reference to the Frame
+	local add = 10
+	wait(1)
+	local k = 1
+	
+	while k <= 255 do
+		frame.BackgroundColor3 = Color3.new(k / 255, 0 / 255, 0 / 255)
+		k = k + add
+		wait()
+	end
+	
+	while true do
+		k = 1
+		while k <= 255 do
+			frame.BackgroundColor3 = Color3.new(255 / 255, k / 255, 0 / 255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			frame.BackgroundColor3 = Color3.new(255 / 255 - k / 255, 255 / 255, 0 / 255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			frame.BackgroundColor3 = Color3.new(0 / 255, 255 / 255, k / 255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			frame.BackgroundColor3 = Color3.new(0 / 255, 255 / 255 - k / 255, 255 / 255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			frame.BackgroundColor3 = Color3.new(k / 255, 0 / 255, 255 / 255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			frame.BackgroundColor3 = Color3.new(255 / 255, 0 / 255, 255 / 255 - k / 255)
+			k = k + add
+			wait()
+		end
+		while k <= 255 do
+			frame.BackgroundColor3 = Color3.new(255 / 255 - k / 255, 0 / 255, 0 / 255)
+			k = k + add
+			wait()
+		end
+	end
+	
+end
+coroutine.wrap(CSGS_fake_script)()
+local function THECGCZ_fake_script() -- walk.LocalScript 
+	local script = Instance.new('LocalScript', walk)
+
+	_G.hello = true
+	
+	while _G.hello == true do
+		-- Round the WalkSpeed value and display it
+		script.Parent.Text = math.floor(game.Players.LocalPlayer.Character.Humanoid.WalkSpeed)
+		wait(0.01)
+	end
+	
+end
+coroutine.wrap(THECGCZ_fake_script)()
+local function UQPD_fake_script() -- jumpslider.jumpupdater 
+	local script = Instance.new('LocalScript', jumpslider)
+
+	local UserInputService = game:GetService("UserInputService")
+	local Players = game:GetService("Players") -- Get the Players service
+	local slider = script.Parent
+	local fill2 = script.Parent.fill2 -- Reference to fill2
+	local trigger2 = script.Parent.trigger2 -- Reference to trigger2
+	
+	local slideractive = false
+	local minJumpPower = 50 -- Minimum jump power
+	local maxJumpPower = 200 -- Maximum jump power
+	
+	-- Function to map slider value to jump power
+	function UpdateSlider(input)
+		local output = math.clamp((input.Position.X - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
+		fill2.Size = UDim2.fromScale(output, 1) -- Update fill2 size
+	
+		-- Calculate the jump power based on the slider value
+		local jumpPower = minJumpPower + (maxJumpPower - minJumpPower) * output
+		local player = Players.LocalPlayer
+		if player and player.Character and player.Character:FindFirstChild("Humanoid") then
+			player.Character.Humanoid.JumpPower = jumpPower
+		end
+	end
+	
+	function activateslider()
+		slideractive = true
+	end
+	
+	trigger2.MouseButton1Down:Connect(function()
+		activateslider()
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if slideractive and input.UserInputType == Enum.UserInputType.MouseMovement then
+			UpdateSlider(input)
+		end
+	end)
+	
+	UserInputService.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			slideractive = false
+		end
+	end)
+	
+end
+coroutine.wrap(UQPD_fake_script)()
+local function RJVRU_fake_script() -- fill2.LocalScript 
+	local script = Instance.new('LocalScript', fill2)
+
+	local frame = script.Parent -- Reference to the Frame
+	local add = 10
+	wait(1)
+	local k = 1
+	
+	while k <= 255 do
+		frame.BackgroundColor3 = Color3.new(k / 255, 0 / 255, 0 / 255)
+		k = k + add
+		wait()
+	end
+	
+	while true do
+		k = 1
+		while k <= 255 do
+			frame.BackgroundColor3 = Color3.new(255 / 255, k / 255, 0 / 255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			frame.BackgroundColor3 = Color3.new(255 / 255 - k / 255, 255 / 255, 0 / 255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			frame.BackgroundColor3 = Color3.new(0 / 255, 255 / 255, k / 255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			frame.BackgroundColor3 = Color3.new(0 / 255, 255 / 255 - k / 255, 255 / 255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			frame.BackgroundColor3 = Color3.new(k / 255, 0 / 255, 255 / 255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			frame.BackgroundColor3 = Color3.new(255 / 255, 0 / 255, 255 / 255 - k / 255)
+			k = k + add
+			wait()
+		end
+		while k <= 255 do
+			frame.BackgroundColor3 = Color3.new(255 / 255 - k / 255, 0 / 255, 0 / 255)
+			k = k + add
+			wait()
+		end
+	end
+	
+end
+coroutine.wrap(RJVRU_fake_script)()
+local function YALH_fake_script() -- jump.LocalScript 
+	local script = Instance.new('LocalScript', jump)
+
+	_G.hello = true
+	
+	while _G.hello == true do
+		-- Round the WalkSpeed value and display it
+		script.Parent.Text = math.floor(game.Players.LocalPlayer.Character.Humanoid.JumpPower)
+		wait(0.01)
+	end
+	
+end
+coroutine.wrap(YALH_fake_script)()
+local function VFSFDYT_fake_script() -- back_2.backscript 
 	local script = Instance.new('LocalScript', back_2)
 
 	--// put all of that in a mouse button click function
@@ -1343,8 +1885,8 @@ local function QERWGCE_fake_script() -- back_2.backscript
 		--                                /\ PUT TAB NAME THERE	
 	end)
 end
-coroutine.wrap(QERWGCE_fake_script)()
-local function IDVVP_fake_script() -- TextLabel_7.LocalScript 
+coroutine.wrap(VFSFDYT_fake_script)()
+local function FLKV_fake_script() -- TextLabel_7.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_7)
 
 	local text = script.Parent
@@ -1400,16 +1942,16 @@ local function IDVVP_fake_script() -- TextLabel_7.LocalScript
 		end
 	end
 end
-coroutine.wrap(IDVVP_fake_script)()
-local function QBLZW_fake_script() -- infinitey.LocalScript 
+coroutine.wrap(FLKV_fake_script)()
+local function EBFPI_fake_script() -- infinitey.LocalScript 
 	local script = Instance.new('LocalScript', infinitey)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 	end)
 end
-coroutine.wrap(QBLZW_fake_script)()
-local function PNNEBRF_fake_script() -- infinitey.color 
+coroutine.wrap(EBFPI_fake_script)()
+local function DEERWP_fake_script() -- infinitey.color 
 	local script = Instance.new('LocalScript', infinitey)
 
 	-- LocalScript inside the TextButton
@@ -1506,16 +2048,16 @@ local function PNNEBRF_fake_script() -- infinitey.color
 	end)
 	
 end
-coroutine.wrap(PNNEBRF_fake_script)()
-local function INEVE_fake_script() -- exware.LocalScript 
+coroutine.wrap(DEERWP_fake_script)()
+local function WVLSP_fake_script() -- exware.LocalScript 
 	local script = Instance.new('LocalScript', exware)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Tomskix/exware-public/main/loader"))()
 	end)
 end
-coroutine.wrap(INEVE_fake_script)()
-local function DZFF_fake_script() -- exware.color 
+coroutine.wrap(WVLSP_fake_script)()
+local function MPKBWU_fake_script() -- exware.color 
 	local script = Instance.new('LocalScript', exware)
 
 	-- LocalScript inside the TextButton
@@ -1612,16 +2154,16 @@ local function DZFF_fake_script() -- exware.color
 	end)
 	
 end
-coroutine.wrap(DZFF_fake_script)()
-local function QDRWW_fake_script() -- zuremod.LocalScript 
+coroutine.wrap(MPKBWU_fake_script)()
+local function CKTZZG_fake_script() -- zuremod.LocalScript 
 	local script = Instance.new('LocalScript', zuremod)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))()
 	end)
 end
-coroutine.wrap(QDRWW_fake_script)()
-local function MTAZXML_fake_script() -- zuremod.color 
+coroutine.wrap(CKTZZG_fake_script)()
+local function EOHW_fake_script() -- zuremod.color 
 	local script = Instance.new('LocalScript', zuremod)
 
 	-- LocalScript inside the TextButton
@@ -1718,16 +2260,16 @@ local function MTAZXML_fake_script() -- zuremod.color
 	end)
 	
 end
-coroutine.wrap(MTAZXML_fake_script)()
-local function WACII_fake_script() -- prisonware.LocalScript 
+coroutine.wrap(EOHW_fake_script)()
+local function LLDI_fake_script() -- prisonware.LocalScript 
 	local script = Instance.new('LocalScript', prisonware)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))()
 	end)
 end
-coroutine.wrap(WACII_fake_script)()
-local function KTSIOO_fake_script() -- prisonware.color 
+coroutine.wrap(LLDI_fake_script)()
+local function RXUU_fake_script() -- prisonware.color 
 	local script = Instance.new('LocalScript', prisonware)
 
 	-- LocalScript inside the TextButton
@@ -1824,16 +2366,16 @@ local function KTSIOO_fake_script() -- prisonware.color
 	end)
 	
 end
-coroutine.wrap(KTSIOO_fake_script)()
-local function FANE_fake_script() -- zbloxfruits.LocalScript 
+coroutine.wrap(RXUU_fake_script)()
+local function ZHKAP_fake_script() -- zbloxfruits.LocalScript 
 	local script = Instance.new('LocalScript', zbloxfruits)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))() 
 	end)
 end
-coroutine.wrap(FANE_fake_script)()
-local function EGFAK_fake_script() -- zbloxfruits.color 
+coroutine.wrap(ZHKAP_fake_script)()
+local function IQDIQV_fake_script() -- zbloxfruits.color 
 	local script = Instance.new('LocalScript', zbloxfruits)
 
 	-- LocalScript inside the TextButton
@@ -1930,16 +2472,16 @@ local function EGFAK_fake_script() -- zbloxfruits.color
 	end)
 	
 end
-coroutine.wrap(EGFAK_fake_script)()
-local function KOBXB_fake_script() -- solsrng.LocalScript 
+coroutine.wrap(IQDIQV_fake_script)()
+local function EEMARQ_fake_script() -- solsrng.LocalScript 
 	local script = Instance.new('LocalScript', solsrng)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Looser3itx/Hmmmmmmmmmmmmmmmmmmmmmmmmmmmm/main/loader.lua"))()
 	end)
 end
-coroutine.wrap(KOBXB_fake_script)()
-local function GJHSI_fake_script() -- solsrng.color 
+coroutine.wrap(EEMARQ_fake_script)()
+local function ZZRPB_fake_script() -- solsrng.color 
 	local script = Instance.new('LocalScript', solsrng)
 
 	-- LocalScript inside the TextButton
@@ -2036,16 +2578,16 @@ local function GJHSI_fake_script() -- solsrng.color
 	end)
 	
 end
-coroutine.wrap(GJHSI_fake_script)()
-local function HOXARDF_fake_script() -- zbuild.LocalScript 
+coroutine.wrap(ZZRPB_fake_script)()
+local function RXXBPN_fake_script() -- zbuild.LocalScript 
 	local script = Instance.new('LocalScript', zbuild)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Looser3itx/Hmmmmmmmmmmmmmmmmmmmmmmmmmmmm/main/loader.lua"))()
 	end)
 end
-coroutine.wrap(HOXARDF_fake_script)()
-local function DNOZSI_fake_script() -- zbuild.color 
+coroutine.wrap(RXXBPN_fake_script)()
+local function RHECIT_fake_script() -- zbuild.color 
 	local script = Instance.new('LocalScript', zbuild)
 
 	-- LocalScript inside the TextButton
@@ -2142,16 +2684,16 @@ local function DNOZSI_fake_script() -- zbuild.color
 	end)
 	
 end
-coroutine.wrap(DNOZSI_fake_script)()
-local function FDCVPXO_fake_script() -- cusduels.LocalScript 
+coroutine.wrap(RHECIT_fake_script)()
+local function FAVGZ_fake_script() -- cusduels.LocalScript 
 	local script = Instance.new('LocalScript', cusduels)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))()
 	end)
 end
-coroutine.wrap(FDCVPXO_fake_script)()
-local function OTFYN_fake_script() -- cusduels.color 
+coroutine.wrap(FAVGZ_fake_script)()
+local function WSLPJ_fake_script() -- cusduels.color 
 	local script = Instance.new('LocalScript', cusduels)
 
 	-- LocalScript inside the TextButton
@@ -2248,16 +2790,16 @@ local function OTFYN_fake_script() -- cusduels.color
 	end)
 	
 end
-coroutine.wrap(OTFYN_fake_script)()
-local function EUGLDR_fake_script() -- nexam.LocalScript 
+coroutine.wrap(WSLPJ_fake_script)()
+local function WBYYRVF_fake_script() -- nexam.LocalScript 
 	local script = Instance.new('LocalScript', nexam)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5ebefab5c68bfa67271dcbf6430d3c7d.lua"))
 	end)
 end
-coroutine.wrap(EUGLDR_fake_script)()
-local function KMFUBR_fake_script() -- nexam.color 
+coroutine.wrap(WBYYRVF_fake_script)()
+local function QSRHRVR_fake_script() -- nexam.color 
 	local script = Instance.new('LocalScript', nexam)
 
 	-- LocalScript inside the TextButton
@@ -2354,8 +2896,8 @@ local function KMFUBR_fake_script() -- nexam.color
 	end)
 	
 end
-coroutine.wrap(KMFUBR_fake_script)()
-local function RKHYP_fake_script() -- universal.searchscript 
+coroutine.wrap(QSRHRVR_fake_script)()
+local function UHQEYK_fake_script() -- universal.searchscript 
 	local script = Instance.new('LocalScript', universal)
 
 	local scroll = script.Parent.uniscroll
@@ -2385,8 +2927,8 @@ local function RKHYP_fake_script() -- universal.searchscript
 		end
 	end)
 end
-coroutine.wrap(RKHYP_fake_script)()
-local function MZPZFAE_fake_script() -- atitle.LocalScript 
+coroutine.wrap(UHQEYK_fake_script)()
+local function KAATUU_fake_script() -- atitle.LocalScript 
 	local script = Instance.new('LocalScript', atitle)
 
 	local text = script.Parent
@@ -2442,8 +2984,8 @@ local function MZPZFAE_fake_script() -- atitle.LocalScript
 		end
 	end
 end
-coroutine.wrap(MZPZFAE_fake_script)()
-local function RGZIF_fake_script() -- TextLabel_8.LocalScript 
+coroutine.wrap(KAATUU_fake_script)()
+local function BPVNXMK_fake_script() -- TextLabel_8.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_8)
 
 	local text = script.Parent
@@ -2499,8 +3041,8 @@ local function RGZIF_fake_script() -- TextLabel_8.LocalScript
 		end
 	end
 end
-coroutine.wrap(RGZIF_fake_script)()
-local function VPSKKPP_fake_script() -- funbutton.LocalScript 
+coroutine.wrap(BPVNXMK_fake_script)()
+local function VZEXEIL_fake_script() -- funbutton.LocalScript 
 	local script = Instance.new('LocalScript', funbutton)
 
 	--// put all of that in a mouse button click function
@@ -2518,8 +3060,8 @@ local function VPSKKPP_fake_script() -- funbutton.LocalScript
 		--                                /\ PUT TAB NAME THERE	
 	end)
 end
-coroutine.wrap(VPSKKPP_fake_script)()
-local function OKWWZV_fake_script() -- funbutton.color 
+coroutine.wrap(VZEXEIL_fake_script)()
+local function HWCEZ_fake_script() -- funbutton.color 
 	local script = Instance.new('LocalScript', funbutton)
 
 	-- LocalScript inside the TextButton
@@ -2616,8 +3158,8 @@ local function OKWWZV_fake_script() -- funbutton.color
 	end)
 	
 end
-coroutine.wrap(OKWWZV_fake_script)()
-local function UMVFK_fake_script() -- ahomebutton.LocalScript 
+coroutine.wrap(HWCEZ_fake_script)()
+local function UWZNI_fake_script() -- ahomebutton.LocalScript 
 	local script = Instance.new('LocalScript', ahomebutton)
 
 	--// put all of that in a mouse button click function
@@ -2635,8 +3177,8 @@ local function UMVFK_fake_script() -- ahomebutton.LocalScript
 		--                                /\ PUT TAB NAME THERE	
 	end)
 end
-coroutine.wrap(UMVFK_fake_script)()
-local function BAFAXYE_fake_script() -- ahomebutton.color 
+coroutine.wrap(UWZNI_fake_script)()
+local function JVDTMS_fake_script() -- ahomebutton.color 
 	local script = Instance.new('LocalScript', ahomebutton)
 
 	-- LocalScript inside the TextButton
@@ -2733,8 +3275,8 @@ local function BAFAXYE_fake_script() -- ahomebutton.color
 	end)
 	
 end
-coroutine.wrap(BAFAXYE_fake_script)()
-local function DNHRU_fake_script() -- unibutton.LocalScript 
+coroutine.wrap(JVDTMS_fake_script)()
+local function SFHO_fake_script() -- unibutton.LocalScript 
 	local script = Instance.new('LocalScript', unibutton)
 
 	--// put all of that in a mouse button click function
@@ -2752,8 +3294,8 @@ local function DNHRU_fake_script() -- unibutton.LocalScript
 		--                                /\ PUT TAB NAME THERE	
 	end)
 end
-coroutine.wrap(DNHRU_fake_script)()
-local function XWVF_fake_script() -- unibutton.color 
+coroutine.wrap(SFHO_fake_script)()
+local function DXPEM_fake_script() -- unibutton.color 
 	local script = Instance.new('LocalScript', unibutton)
 
 	-- LocalScript inside the TextButton
@@ -2850,8 +3392,8 @@ local function XWVF_fake_script() -- unibutton.color
 	end)
 	
 end
-coroutine.wrap(XWVF_fake_script)()
-local function TMFSN_fake_script() -- mainhold.drags 
+coroutine.wrap(DXPEM_fake_script)()
+local function XWUHIGC_fake_script() -- mainhold.drags 
 	local script = Instance.new('LocalScript', mainhold)
 
 	spawn(function()
@@ -2894,110 +3436,111 @@ local function TMFSN_fake_script() -- mainhold.drags
 		normal_dragify(script.Parent)
 	end)
 end
-coroutine.wrap(TMFSN_fake_script)()
-local function BQTIWA_fake_script() -- open.LocalScript 
-	local script = Instance.new('LocalScript', open)
+coroutine.wrap(XWUHIGC_fake_script)()
+local function YWDPCHI_fake_script() -- TextLabel_9.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_9)
+
+	local text = script.Parent
+	local add = 10
+	wait(1)
+	local k = 1
+	while k <= 255 do
+		text.TextColor3 = Color3.new(k/255,0/255,0/255)
+		k = k + add
+		wait()
+	end
+	while true do
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255,k/255,0/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255 - k/255,255/255,0/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(0/255,255/255,k/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(0/255,255/255 - k/255,255/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(k/255,0/255,255/255)
+			k = k + add
+			wait()
+		end
+		k = 1
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255,0/255,255/255 - k/255)
+			k = k + add
+			wait()
+		end
+		while k <= 255 do
+			text.TextColor3 = Color3.new(255/255 - k/255,0/255,0/255)
+			k = k + add
+			wait()
+		end
+	end
+end
+coroutine.wrap(YWDPCHI_fake_script)()
+local function MRSY_fake_script() -- submit.LocalScript 
+	local script = Instance.new('LocalScript', submit)
+
+	enterkey = script.Parent.Parent.keybox
+	submit = script.Parent
+	keylogin = script.Parent.Parent.Parent.keysys
+	mainf = script.Parent.Parent.Parent.mainhold
+	open = script.Parent.Parent.Parent.open
+	
+	submit.MouseButton1Click:Connect(function()
+		if enterkey.Text == "VORTEX!lol" then
+			game.StarterGui:SetCore("SendNotification", {
+				Title = "VORTEX KEY SYSTEM!";
+				Text = "Correct Key."
+			})
+			keylogin.Visible = false
+			wait(0.5)
+			mainf.Visible = true
+			open.Visible = true
+		else
+			game.StarterGui:SetCore("SendNotification", {
+				Title = "VORTEX KEY SYSTEM!";
+				Text = "Incorrect Key."
+			})
+		end
+	end)
+end
+coroutine.wrap(MRSY_fake_script)()
+local function CPVXHZH_fake_script() -- clipboard.LocalScript 
+	local script = Instance.new('LocalScript', clipboard)
+
+	-- if this doesn't work, your executor doesnt have a setclipboard function
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		setclipboard("https://discord.gg/")
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "VORTEX KEY SYSTEM",
+			Text = "Check your clipboard (WIN+V)"
+		})
+	end)
+end
+coroutine.wrap(CPVXHZH_fake_script)()
+local function QGUAIV_fake_script() -- exit2.LocalScript 
+	local script = Instance.new('LocalScript', exit2)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.mainhold.Visible = true
+		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(BQTIWA_fake_script)()
-local function VEWVY_fake_script() -- open.color 
-	local script = Instance.new('LocalScript', open)
-
-	-- LocalScript inside the TextButton
-	
-	local button = script.Parent
-	local TweenService = game:GetService("TweenService")
-	
-	-- Store the original size, position, and text color
-	local originalSize = button.Size
-	local originalPosition = button.Position
-	local originalTextColor = button.TextColor3
-	
-	-- Define tween information for the bounce effect
-	local tweenInfo = TweenInfo.new(
-		0.1, -- Time
-		Enum.EasingStyle.Quad, -- EasingStyle
-		Enum.EasingDirection.Out -- EasingDirection
-	)
-	
-	-- Define the size increase and position offset for the bounce effect
-	local hoverSizeIncrease = UDim2.new(0, 5, 0, 5)
-	local goalSizeIncrease = UDim2.new(0, 2, 0, 2) -- Slight bounce increase
-	local goalPositionOffset = UDim2.new(0, -1, 0, -1) -- Slight position offset
-	
-	-- Variable to keep track of current tween
-	local currentTween
-	local runningRainbow = false
-	
-	-- Create tween function
-	local function createTween(goal)
-		return TweenService:Create(button, tweenInfo, goal)
-	end
-	
-	-- Function to play bounce effect
-	local function playBounceEffect()
-		if currentTween then
-			currentTween:Cancel()
-		end
-	
-		local goal = {Size = originalSize + hoverSizeIncrease, Position = originalPosition + goalPositionOffset}
-		currentTween = createTween(goal)
-		currentTween:Play()
-		currentTween.Completed:Connect(function()
-			local goal = {Size = originalSize + goalSizeIncrease, Position = originalPosition + goalPositionOffset}
-			currentTween = createTween(goal)
-			currentTween:Play()
-		end)
-	end
-	
-	-- Function to play rainbow effect
-	local function playRainbowEffect()
-		local colors = {
-			Color3.fromRGB(255, 0, 0),    -- Red
-			Color3.fromRGB(255, 127, 0),  -- Orange
-			Color3.fromRGB(255, 255, 0),  -- Yellow
-			Color3.fromRGB(0, 255, 0),    -- Green
-			Color3.fromRGB(0, 0, 255),    -- Blue
-			Color3.fromRGB(75, 0, 130),   -- Indigo
-			Color3.fromRGB(148, 0, 211)   -- Violet
-		}
-	
-		local colorIndex = 1
-		runningRainbow = true
-	
-		while runningRainbow do
-			local nextColor = colors[colorIndex]
-			local colorTween = TweenService:Create(button, tweenInfo, {TextColor3 = nextColor})
-			colorTween:Play()
-	
-			colorTween.Completed:Wait()
-			colorIndex = (colorIndex % #colors) + 1
-		end
-	end
-	
-	-- Hover effect
-	button.MouseEnter:Connect(function()
-		if currentTween then
-			currentTween:Cancel()
-		end
-	
-		playBounceEffect()
-		playRainbowEffect()
-	end)
-	
-	button.MouseLeave:Connect(function()
-		if currentTween then
-			currentTween:Cancel()
-		end
-		runningRainbow = false -- Stop the rainbow effect
-	
-		local goal = {Size = originalSize, Position = originalPosition, TextColor3 = originalTextColor}
-		currentTween = createTween(goal)
-		currentTween:Play()
-	end)
-	
-end
-coroutine.wrap(VEWVY_fake_script)()
+coroutine.wrap(QGUAIV_fake_script)()
