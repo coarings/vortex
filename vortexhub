@@ -39,27 +39,26 @@ local back = Instance.new("TextButton")
 local fetitle = Instance.new("TextLabel")
 local TextLabel_6 = Instance.new("TextLabel")
 local UIGradient_5 = Instance.new("UIGradient")
-local fejump = Instance.new("TextLabel")
-local walking = Instance.new("Frame")
-local walkslider = Instance.new("Frame")
+local jumping = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local jumpslider = Instance.new("Frame")
 local fill = Instance.new("Frame")
 local UIGradient_6 = Instance.new("UIGradient")
-local UICorner_7 = Instance.new("UICorner")
-local trigger = Instance.new("TextButton")
-local walk = Instance.new("TextLabel")
 local UICorner_8 = Instance.new("UICorner")
-local fewalk = Instance.new("TextLabel")
+local trigger = Instance.new("TextButton")
+local jump = Instance.new("TextLabel")
 local UICorner_9 = Instance.new("UICorner")
-local jumping = Instance.new("Frame")
+local fejump = Instance.new("TextLabel")
+local walking = Instance.new("Frame")
 local UICorner_10 = Instance.new("UICorner")
-local jumpslider = Instance.new("Frame")
-local fill2 = Instance.new("Frame")
+local walkslider = Instance.new("Frame")
+local fill_2 = Instance.new("Frame")
 local UIGradient_7 = Instance.new("UIGradient")
 local UICorner_11 = Instance.new("UICorner")
-local trigger2 = Instance.new("TextButton")
-local jump = Instance.new("TextLabel")
+local trigger_2 = Instance.new("TextButton")
 local UICorner_12 = Instance.new("UICorner")
-local fejump_2 = Instance.new("TextLabel")
+local walk = Instance.new("TextLabel")
+local fewalk = Instance.new("TextLabel")
 local universal = Instance.new("Frame")
 local back_2 = Instance.new("TextButton")
 local unititle = Instance.new("TextLabel")
@@ -149,7 +148,6 @@ mainhold.BorderColor3 = Color3.fromRGB(0, 0, 0)
 mainhold.BorderSizePixel = 0
 mainhold.Position = UDim2.new(0.5, 50, 0.5, 0)
 mainhold.Size = UDim2.new(0, 342, 0, 285)
-mainhold.Visible = false
 
 thold.Name = "thold"
 thold.Parent = mainhold
@@ -363,7 +361,6 @@ fun.BorderColor3 = Color3.fromRGB(0, 0, 0)
 fun.BorderSizePixel = 0
 fun.Position = UDim2.new(0.00107793079, 0, 0, 0)
 fun.Size = UDim2.new(0, 342, 0, 285)
-fun.Visible = false
 
 back.Name = "back"
 back.Parent = fun
@@ -407,49 +404,38 @@ TextLabel_6.TextSize = 14.000
 
 UIGradient_5.Parent = TextLabel_6
 
-fejump.Name = "fejump"
-fejump.Parent = fun
-fejump.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-fejump.BackgroundTransparency = 1.000
-fejump.BorderColor3 = Color3.fromRGB(27, 42, 53)
-fejump.BorderSizePixel = 0
-fejump.Position = UDim2.new(0.0585891083, 0, 0.245614037, 0)
-fejump.Size = UDim2.new(0, 91, 0, 32)
-fejump.Font = Enum.Font.GothamMedium
-fejump.Text = "JUMP POWER"
-fejump.TextColor3 = Color3.fromRGB(255, 255, 255)
-fejump.TextSize = 14.000
+jumping.Name = "jumping"
+jumping.Parent = fun
+jumping.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+jumping.BorderColor3 = Color3.fromRGB(0, 0, 0)
+jumping.BorderSizePixel = 0
+jumping.Position = UDim2.new(0.0204678364, 0, 0.27719298, 0)
+jumping.Size = UDim2.new(0, 325, 0, 32)
 
-walking.Name = "walking"
-walking.Parent = fun
-walking.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-walking.BorderColor3 = Color3.fromRGB(0, 0, 0)
-walking.BorderSizePixel = 0
-walking.Position = UDim2.new(0.0204678364, 0, 0.13333334, 0)
-walking.Size = UDim2.new(0, 325, 0, 32)
+UICorner_7.CornerRadius = UDim.new(0, 3)
+UICorner_7.Parent = jumping
 
-walkslider.Name = "walkslider"
-walkslider.Parent = walking
-walkslider.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
-walkslider.BorderColor3 = Color3.fromRGB(0, 0, 0)
-walkslider.BorderSizePixel = 0
-walkslider.Position = UDim2.new(0.314341754, 0, 0.289912224, 0)
-walkslider.Size = UDim2.new(0, 213, 0, 13)
+jumpslider.Name = "jumpslider"
+jumpslider.Parent = jumping
+jumpslider.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+jumpslider.BorderColor3 = Color3.fromRGB(0, 0, 0)
+jumpslider.BorderSizePixel = 0
+jumpslider.Position = UDim2.new(0.32040453, 0, 0.370943069, 0)
+jumpslider.Size = UDim2.new(0, 211, 0, 13)
 
 fill.Name = "fill"
-fill.Parent = walkslider
+fill.Parent = jumpslider
 fill.BackgroundColor3 = Color3.fromRGB(0, 255, 234)
 fill.BorderColor3 = Color3.fromRGB(0, 0, 0)
 fill.BorderSizePixel = 0
-fill.Position = UDim2.new(0.00999999978, 0, 0, 0)
 fill.Size = UDim2.new(0, 15, 0, 13)
 
 UIGradient_6.Parent = fill
 
-UICorner_7.Parent = fill
+UICorner_8.Parent = fill
 
 trigger.Name = "trigger"
-trigger.Parent = walkslider
+trigger.Parent = jumpslider
 trigger.AnchorPoint = Vector2.new(0, 0.5)
 trigger.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 trigger.BackgroundTransparency = 1.000
@@ -462,83 +448,6 @@ trigger.Text = ""
 trigger.TextColor3 = Color3.fromRGB(0, 0, 0)
 trigger.TextSize = 14.000
 trigger.TextStrokeTransparency = 0.000
-
-walk.Name = "walk"
-walk.Parent = walkslider
-walk.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-walk.BackgroundTransparency = 1.000
-walk.BorderColor3 = Color3.fromRGB(0, 0, 0)
-walk.BorderSizePixel = 0
-walk.Position = UDim2.new(0.010000376, 0, -0.0769230798, 0)
-walk.Size = UDim2.new(0, 208, 0, 13)
-walk.Font = Enum.Font.GothamBold
-walk.Text = "100"
-walk.TextColor3 = Color3.fromRGB(255, 255, 255)
-walk.TextSize = 14.000
-walk.TextStrokeTransparency = 0.000
-
-UICorner_8.Parent = walkslider
-
-fewalk.Name = "fewalk"
-fewalk.Parent = walking
-fewalk.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-fewalk.BackgroundTransparency = 1.000
-fewalk.BorderColor3 = Color3.fromRGB(27, 42, 53)
-fewalk.BorderSizePixel = 0
-fewalk.Position = UDim2.new(0.0053326278, 0, -0.0229167938, 0)
-fewalk.Size = UDim2.new(0, 97, 0, 32)
-fewalk.Font = Enum.Font.GothamMedium
-fewalk.Text = "WALKSPEED"
-fewalk.TextColor3 = Color3.fromRGB(255, 255, 255)
-fewalk.TextSize = 14.000
-
-UICorner_9.CornerRadius = UDim.new(0, 3)
-UICorner_9.Parent = walking
-
-jumping.Name = "jumping"
-jumping.Parent = fun
-jumping.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-jumping.BorderColor3 = Color3.fromRGB(0, 0, 0)
-jumping.BorderSizePixel = 0
-jumping.Position = UDim2.new(0.0204678364, 0, 0.27719298, 0)
-jumping.Size = UDim2.new(0, 325, 0, 32)
-
-UICorner_10.CornerRadius = UDim.new(0, 3)
-UICorner_10.Parent = jumping
-
-jumpslider.Name = "jumpslider"
-jumpslider.Parent = jumping
-jumpslider.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
-jumpslider.BorderColor3 = Color3.fromRGB(0, 0, 0)
-jumpslider.BorderSizePixel = 0
-jumpslider.Position = UDim2.new(0.32040453, 0, 0.370943069, 0)
-jumpslider.Size = UDim2.new(0, 211, 0, 13)
-
-fill2.Name = "fill2"
-fill2.Parent = jumpslider
-fill2.BackgroundColor3 = Color3.fromRGB(0, 255, 234)
-fill2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-fill2.BorderSizePixel = 0
-fill2.Size = UDim2.new(0, 15, 0, 13)
-
-UIGradient_7.Parent = fill2
-
-UICorner_11.Parent = fill2
-
-trigger2.Name = "trigger2"
-trigger2.Parent = jumpslider
-trigger2.AnchorPoint = Vector2.new(0, 0.5)
-trigger2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-trigger2.BackgroundTransparency = 1.000
-trigger2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-trigger2.BorderSizePixel = 0
-trigger2.Position = UDim2.new(0, 0, 0.5, 0)
-trigger2.Size = UDim2.new(1, 0, 1, 0)
-trigger2.Font = Enum.Font.SourceSans
-trigger2.Text = ""
-trigger2.TextColor3 = Color3.fromRGB(0, 0, 0)
-trigger2.TextSize = 14.000
-trigger2.TextStrokeTransparency = 0.000
 
 jump.Name = "jump"
 jump.Parent = jumpslider
@@ -554,20 +463,95 @@ jump.TextColor3 = Color3.fromRGB(255, 255, 255)
 jump.TextSize = 14.000
 jump.TextStrokeTransparency = 0.000
 
-UICorner_12.Parent = jumpslider
+UICorner_9.Parent = jumpslider
 
-fejump_2.Name = "fejump"
-fejump_2.Parent = jumpslider
-fejump_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-fejump_2.BackgroundTransparency = 1.000
-fejump_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
-fejump_2.BorderSizePixel = 0
-fejump_2.Position = UDim2.new(-0.463861704, 0, -0.775320172, 0)
-fejump_2.Size = UDim2.new(0, 97, 0, 32)
-fejump_2.Font = Enum.Font.GothamMedium
-fejump_2.Text = "JUMP POWER"
-fejump_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-fejump_2.TextSize = 14.000
+fejump.Name = "fejump"
+fejump.Parent = jumpslider
+fejump.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fejump.BackgroundTransparency = 1.000
+fejump.BorderColor3 = Color3.fromRGB(27, 42, 53)
+fejump.BorderSizePixel = 0
+fejump.Position = UDim2.new(-0.463861704, 0, -0.775320172, 0)
+fejump.Size = UDim2.new(0, 97, 0, 32)
+fejump.Font = Enum.Font.GothamMedium
+fejump.Text = "JUMP POWER"
+fejump.TextColor3 = Color3.fromRGB(255, 255, 255)
+fejump.TextSize = 14.000
+
+walking.Name = "walking"
+walking.Parent = fun
+walking.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+walking.BorderColor3 = Color3.fromRGB(0, 0, 0)
+walking.BorderSizePixel = 0
+walking.Position = UDim2.new(0.0204678364, 0, 0.13333334, 0)
+walking.Size = UDim2.new(0, 325, 0, 32)
+
+UICorner_10.CornerRadius = UDim.new(0, 3)
+UICorner_10.Parent = walking
+
+walkslider.Name = "walkslider"
+walkslider.Parent = walking
+walkslider.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+walkslider.BorderColor3 = Color3.fromRGB(0, 0, 0)
+walkslider.BorderSizePixel = 0
+walkslider.Position = UDim2.new(0.308187902, 0, 0.352412224, 0)
+walkslider.Size = UDim2.new(0, 213, 0, 13)
+
+fill_2.Name = "fill"
+fill_2.Parent = walkslider
+fill_2.BackgroundColor3 = Color3.fromRGB(0, 255, 234)
+fill_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+fill_2.BorderSizePixel = 0
+fill_2.Position = UDim2.new(0.00999999978, 0, 0, 0)
+fill_2.Size = UDim2.new(0, 15, 0, 13)
+
+UIGradient_7.Parent = fill_2
+
+UICorner_11.Parent = fill_2
+
+trigger_2.Name = "trigger"
+trigger_2.Parent = walkslider
+trigger_2.AnchorPoint = Vector2.new(0, 0.5)
+trigger_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+trigger_2.BackgroundTransparency = 1.000
+trigger_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+trigger_2.BorderSizePixel = 0
+trigger_2.Position = UDim2.new(0, 0, 0.5, 0)
+trigger_2.Size = UDim2.new(1, 0, 1, 0)
+trigger_2.Font = Enum.Font.SourceSans
+trigger_2.Text = ""
+trigger_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+trigger_2.TextSize = 14.000
+trigger_2.TextStrokeTransparency = 0.000
+
+UICorner_12.Parent = walkslider
+
+walk.Name = "walk"
+walk.Parent = walkslider
+walk.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+walk.BackgroundTransparency = 1.000
+walk.BorderColor3 = Color3.fromRGB(0, 0, 0)
+walk.BorderSizePixel = 0
+walk.Position = UDim2.new(0.0193899814, 0, 0, 0)
+walk.Size = UDim2.new(0, 208, 0, 13)
+walk.Font = Enum.Font.GothamBold
+walk.Text = "100"
+walk.TextColor3 = Color3.fromRGB(255, 255, 255)
+walk.TextSize = 14.000
+walk.TextStrokeTransparency = 0.000
+
+fewalk.Name = "fewalk"
+fewalk.Parent = walkslider
+fewalk.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fewalk.BackgroundTransparency = 1.000
+fewalk.BorderColor3 = Color3.fromRGB(27, 42, 53)
+fewalk.BorderSizePixel = 0
+fewalk.Position = UDim2.new(-0.450066358, 0, -0.715224028, 0)
+fewalk.Size = UDim2.new(0, 97, 0, 32)
+fewalk.Font = Enum.Font.GothamMedium
+fewalk.Text = "WALKSPEED"
+fewalk.TextColor3 = Color3.fromRGB(255, 255, 255)
+fewalk.TextSize = 14.000
 
 universal.Name = "universal"
 universal.Parent = thold
@@ -919,6 +903,7 @@ keysys.BorderColor3 = Color3.fromRGB(0, 0, 0)
 keysys.BorderSizePixel = 0
 keysys.Position = UDim2.new(0.504566252, 0, 0.475053906, 0)
 keysys.Size = UDim2.new(0, 254, 0, 213)
+keysys.Visible = false
 
 UICorner_26.CornerRadius = UDim.new(0, 4)
 UICorner_26.Parent = keysys
@@ -1035,21 +1020,21 @@ exit2.TextSize = 14.000
 
 -- Scripts:
 
-local function NDRHIWK_fake_script() -- mainmain.welcome 
+local function FMOFZ_fake_script() -- mainmain.welcome 
 	local script = Instance.new('LocalScript', mainmain)
 
 	game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("Welcome to Vortex Premium, "..game.Players.LocalPlayer.Name..".")
 end
-coroutine.wrap(NDRHIWK_fake_script)()
-local function OWPYTD_fake_script() -- open.LocalScript 
+coroutine.wrap(FMOFZ_fake_script)()
+local function SCNDQ_fake_script() -- open.LocalScript 
 	local script = Instance.new('LocalScript', open)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.mainhold.Visible = true
 	end)
 end
-coroutine.wrap(OWPYTD_fake_script)()
-local function ISCNGFT_fake_script() -- open.color 
+coroutine.wrap(SCNDQ_fake_script)()
+local function RUSZAT_fake_script() -- open.color 
 	local script = Instance.new('LocalScript', open)
 
 	-- LocalScript inside the TextButton
@@ -1146,14 +1131,14 @@ local function ISCNGFT_fake_script() -- open.color
 	end)
 	
 end
-coroutine.wrap(ISCNGFT_fake_script)()
-local function MRISU_fake_script() -- TextLabel.LocalScript 
+coroutine.wrap(RUSZAT_fake_script)()
+local function CSNKSV_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	script.Parent.Text = "Welcome, "..game.Players.LocalPlayer.Name
 end
-coroutine.wrap(MRISU_fake_script)()
-local function ENQCFKR_fake_script() -- TextLabel.LocalScript 
+coroutine.wrap(CSNKSV_fake_script)()
+local function PSGV_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	local text = script.Parent
@@ -1209,14 +1194,14 @@ local function ENQCFKR_fake_script() -- TextLabel.LocalScript
 		end
 	end
 end
-coroutine.wrap(ENQCFKR_fake_script)()
-local function FCPDC_fake_script() -- TextLabel_2.LocalScript 
+coroutine.wrap(PSGV_fake_script)()
+local function WDLF_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
 	script.Parent.Text = "@"..game.Players.LocalPlayer.Name
 end
-coroutine.wrap(FCPDC_fake_script)()
-local function BAWS_fake_script() -- TextLabel_2.LocalScript 
+coroutine.wrap(WDLF_fake_script)()
+local function IVVBBJ_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
 	local text = script.Parent
@@ -1272,8 +1257,8 @@ local function BAWS_fake_script() -- TextLabel_2.LocalScript
 		end
 	end
 end
-coroutine.wrap(BAWS_fake_script)()
-local function POSOUY_fake_script() -- ImageLabel.LocalScript 
+coroutine.wrap(IVVBBJ_fake_script)()
+local function NDUJEJ_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	imagelabel = script.Parent
@@ -1290,8 +1275,8 @@ local function POSOUY_fake_script() -- ImageLabel.LocalScript
 	local imagelabel = script.Parent
 	imagelabel.Image = content
 end
-coroutine.wrap(POSOUY_fake_script)()
-local function MAJOOL_fake_script() -- TextLabel_3.LocalScript 
+coroutine.wrap(NDUJEJ_fake_script)()
+local function TATL_fake_script() -- TextLabel_3.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_3)
 
 	local text = script.Parent
@@ -1347,16 +1332,16 @@ local function MAJOOL_fake_script() -- TextLabel_3.LocalScript
 		end
 	end
 end
-coroutine.wrap(MAJOOL_fake_script)()
-local function RMSMIKA_fake_script() -- minimize.LocalScript 
+coroutine.wrap(TATL_fake_script)()
+local function UZPZJ_fake_script() -- minimize.LocalScript 
 	local script = Instance.new('LocalScript', minimize)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.Parent.mainhold.Visible = false
 	end)
 end
-coroutine.wrap(RMSMIKA_fake_script)()
-local function ILFPU_fake_script() -- minimize.color 
+coroutine.wrap(UZPZJ_fake_script)()
+local function MXGTZ_fake_script() -- minimize.color 
 	local script = Instance.new('LocalScript', minimize)
 
 	-- LocalScript inside the TextButton
@@ -1419,8 +1404,8 @@ local function ILFPU_fake_script() -- minimize.color
 	end)
 	
 end
-coroutine.wrap(ILFPU_fake_script)()
-local function WHFQBP_fake_script() -- destroy.color 
+coroutine.wrap(MXGTZ_fake_script)()
+local function OIRXZ_fake_script() -- destroy.color 
 	local script = Instance.new('LocalScript', destroy)
 
 	-- LocalScript inside the TextButton
@@ -1483,16 +1468,16 @@ local function WHFQBP_fake_script() -- destroy.color
 	end)
 	
 end
-coroutine.wrap(WHFQBP_fake_script)()
-local function EMQENKG_fake_script() -- destroy.destroyscript 
+coroutine.wrap(OIRXZ_fake_script)()
+local function FBVW_fake_script() -- destroy.destroyscript 
 	local script = Instance.new('LocalScript', destroy)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(EMQENKG_fake_script)()
-local function PXBL_fake_script() -- TextLabel_5.LocalScript 
+coroutine.wrap(FBVW_fake_script)()
+local function LCMIDC_fake_script() -- TextLabel_5.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_5)
 
 	local text = script.Parent
@@ -1548,8 +1533,8 @@ local function PXBL_fake_script() -- TextLabel_5.LocalScript
 		end
 	end
 end
-coroutine.wrap(PXBL_fake_script)()
-local function ZNRI_fake_script() -- back.backscript 
+coroutine.wrap(LCMIDC_fake_script)()
+local function ZUEEVN_fake_script() -- back.backscript 
 	local script = Instance.new('LocalScript', back)
 
 	--// put all of that in a mouse button click function
@@ -1567,8 +1552,8 @@ local function ZNRI_fake_script() -- back.backscript
 		--                                /\ PUT TAB NAME THERE	
 	end)
 end
-coroutine.wrap(ZNRI_fake_script)()
-local function AIMTV_fake_script() -- TextLabel_6.LocalScript 
+coroutine.wrap(ZUEEVN_fake_script)()
+local function VDDSN_fake_script() -- TextLabel_6.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_6)
 
 	local text = script.Parent
@@ -1624,56 +1609,59 @@ local function AIMTV_fake_script() -- TextLabel_6.LocalScript
 		end
 	end
 end
-coroutine.wrap(AIMTV_fake_script)()
-local function AWHJQA_fake_script() -- walkslider.updater 
-	local script = Instance.new('LocalScript', walkslider)
+coroutine.wrap(VDDSN_fake_script)()
+local function OXBND_fake_script() -- jumpslider.updater 
+	local script = Instance.new('LocalScript', jumpslider)
 
 	local UserInputService = game:GetService("UserInputService")
-	local Players = game:GetService("Players") -- Get the Players service
+	local Players = game:GetService("Players")
 	local slider = script.Parent
 	local fill = script.Parent.fill
 	local trigger = script.Parent.trigger
 	
 	local slideractive = false
-	local minWalkSpeed = 16 -- Minimum walk speed
-	local maxWalkSpeed = 500 -- Maximum walk speed
+	local minJumpPower = 16
+	local maxJumpPower = 500
 	
 	-- Function to map slider value to walk speed
 	function UpdateSlider(input)
-		local output = math.clamp((input.Position.X - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
-		fill.Size = UDim2.fromScale(output, 1)
+		if slideractive then
+			local output = math.clamp((input.Position.X - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
+			fill.Size = UDim2.fromScale(output, 1)
 	
-		-- Calculate the walk speed based on the slider value
-		local walkSpeed = minWalkSpeed + (maxWalkSpeed - minWalkSpeed) * output
-		local player = Players.LocalPlayer
-		if player and player.Character and player.Character:FindFirstChild("Humanoid") then
-			player.Character.Humanoid.WalkSpeed = walkSpeed
+			local JumpPower = minJumpPower + (maxJumpPower - minJumpPower) * output
+			local player = Players.LocalPlayer
+			if player and player.Character and player.Character:FindFirstChild("Humanoid") then
+				player.Character.Humanoid.JumpPower = JumpPower
+			end
 		end
 	end
 	
-	function activateslider()
-		slideractive = true
-	end
-	
+	-- Trigger for when the slider is clicked
 	trigger.MouseButton1Down:Connect(function()
-		activateslider()
+		print("JumpPower Slider Active")  -- Debugging
+		slideractive = true
 	end)
 	
+	-- Detect when the mouse is moved over the slider
 	UserInputService.InputChanged:Connect(function(input)
 		if slideractive and input.UserInputType == Enum.UserInputType.MouseMovement then
+			print("Mouse Moved on JumpPower Slider")  -- Debugging
 			UpdateSlider(input)
 		end
 	end)
 	
+	-- Stop the slider action when the mouse button is released
 	UserInputService.InputEnded:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+		if slideractive and (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+			print("JumpPower Slider Deactivated")  -- Debugging
 			slideractive = false
 		end
 	end)
 	
 end
-coroutine.wrap(AWHJQA_fake_script)()
-local function CSGS_fake_script() -- fill.LocalScript 
+coroutine.wrap(OXBND_fake_script)()
+local function RMFHR_fake_script() -- fill.LocalScript 
 	local script = Instance.new('LocalScript', fill)
 
 	local frame = script.Parent -- Reference to the Frame
@@ -1732,70 +1720,73 @@ local function CSGS_fake_script() -- fill.LocalScript
 	end
 	
 end
-coroutine.wrap(CSGS_fake_script)()
-local function THECGCZ_fake_script() -- walk.LocalScript 
-	local script = Instance.new('LocalScript', walk)
+coroutine.wrap(RMFHR_fake_script)()
+local function MSFMOWM_fake_script() -- jump.LocalScript 
+	local script = Instance.new('LocalScript', jump)
 
 	_G.hello = true
 	
 	while _G.hello == true do
 		-- Round the WalkSpeed value and display it
-		script.Parent.Text = math.floor(game.Players.LocalPlayer.Character.Humanoid.WalkSpeed)
+		script.Parent.Text = math.floor(game.Players.LocalPlayer.Character.Humanoid.JumpPower)
 		wait(0.01)
 	end
 	
 end
-coroutine.wrap(THECGCZ_fake_script)()
-local function UQPD_fake_script() -- jumpslider.jumpupdater 
-	local script = Instance.new('LocalScript', jumpslider)
+coroutine.wrap(MSFMOWM_fake_script)()
+local function TSXWF_fake_script() -- walkslider.updater 
+	local script = Instance.new('LocalScript', walkslider)
 
 	local UserInputService = game:GetService("UserInputService")
-	local Players = game:GetService("Players") -- Get the Players service
+	local Players = game:GetService("Players")
 	local slider = script.Parent
-	local fill2 = script.Parent.fill2 -- Reference to fill2
-	local trigger2 = script.Parent.trigger2 -- Reference to trigger2
+	local fill = script.Parent.fill
+	local trigger = script.Parent.trigger
 	
 	local slideractive = false
-	local minJumpPower = 50 -- Minimum jump power
-	local maxJumpPower = 200 -- Maximum jump power
+	local minWalkSpeed = 16
+	local maxWalkSpeed = 500
 	
-	-- Function to map slider value to jump power
+	-- Function to map slider value to walk speed
 	function UpdateSlider(input)
-		local output = math.clamp((input.Position.X - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
-		fill2.Size = UDim2.fromScale(output, 1) -- Update fill2 size
+		if slideractive then
+			local output = math.clamp((input.Position.X - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1)
+			fill.Size = UDim2.fromScale(output, 1)
 	
-		-- Calculate the jump power based on the slider value
-		local jumpPower = minJumpPower + (maxJumpPower - minJumpPower) * output
-		local player = Players.LocalPlayer
-		if player and player.Character and player.Character:FindFirstChild("Humanoid") then
-			player.Character.Humanoid.JumpPower = jumpPower
+			local walkSpeed = minWalkSpeed + (maxWalkSpeed - minWalkSpeed) * output
+			local player = Players.LocalPlayer
+			if player and player.Character and player.Character:FindFirstChild("Humanoid") then
+				player.Character.Humanoid.WalkSpeed = walkSpeed
+			end
 		end
 	end
 	
-	function activateslider()
+	-- Trigger for when the slider is clicked
+	trigger.MouseButton1Down:Connect(function()
+		print("Walk Speed Slider Active")  -- Debugging
 		slideractive = true
-	end
-	
-	trigger2.MouseButton1Down:Connect(function()
-		activateslider()
 	end)
 	
+	-- Detect when the mouse is moved over the slider
 	UserInputService.InputChanged:Connect(function(input)
 		if slideractive and input.UserInputType == Enum.UserInputType.MouseMovement then
+			print("Mouse Moved on Walk Speed Slider")  -- Debugging
 			UpdateSlider(input)
 		end
 	end)
 	
+	-- Stop the slider action when the mouse button is released
 	UserInputService.InputEnded:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+		if slideractive and (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+			print("Walk Speed Slider Deactivated")  -- Debugging
 			slideractive = false
 		end
 	end)
 	
 end
-coroutine.wrap(UQPD_fake_script)()
-local function RJVRU_fake_script() -- fill2.LocalScript 
-	local script = Instance.new('LocalScript', fill2)
+coroutine.wrap(TSXWF_fake_script)()
+local function YYEJMFH_fake_script() -- fill_2.LocalScript 
+	local script = Instance.new('LocalScript', fill_2)
 
 	local frame = script.Parent -- Reference to the Frame
 	local add = 10
@@ -1853,21 +1844,21 @@ local function RJVRU_fake_script() -- fill2.LocalScript
 	end
 	
 end
-coroutine.wrap(RJVRU_fake_script)()
-local function YALH_fake_script() -- jump.LocalScript 
-	local script = Instance.new('LocalScript', jump)
+coroutine.wrap(YYEJMFH_fake_script)()
+local function LPQMZP_fake_script() -- walk.LocalScript 
+	local script = Instance.new('LocalScript', walk)
 
 	_G.hello = true
 	
 	while _G.hello == true do
 		-- Round the WalkSpeed value and display it
-		script.Parent.Text = math.floor(game.Players.LocalPlayer.Character.Humanoid.JumpPower)
+		script.Parent.Text = math.floor(game.Players.LocalPlayer.Character.Humanoid.WalkSpeed)
 		wait(0.01)
 	end
 	
 end
-coroutine.wrap(YALH_fake_script)()
-local function VFSFDYT_fake_script() -- back_2.backscript 
+coroutine.wrap(LPQMZP_fake_script)()
+local function KTIPN_fake_script() -- back_2.backscript 
 	local script = Instance.new('LocalScript', back_2)
 
 	--// put all of that in a mouse button click function
@@ -1885,8 +1876,8 @@ local function VFSFDYT_fake_script() -- back_2.backscript
 		--                                /\ PUT TAB NAME THERE	
 	end)
 end
-coroutine.wrap(VFSFDYT_fake_script)()
-local function FLKV_fake_script() -- TextLabel_7.LocalScript 
+coroutine.wrap(KTIPN_fake_script)()
+local function ZHCYK_fake_script() -- TextLabel_7.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_7)
 
 	local text = script.Parent
@@ -1942,16 +1933,16 @@ local function FLKV_fake_script() -- TextLabel_7.LocalScript
 		end
 	end
 end
-coroutine.wrap(FLKV_fake_script)()
-local function EBFPI_fake_script() -- infinitey.LocalScript 
+coroutine.wrap(ZHCYK_fake_script)()
+local function KUIJH_fake_script() -- infinitey.LocalScript 
 	local script = Instance.new('LocalScript', infinitey)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 	end)
 end
-coroutine.wrap(EBFPI_fake_script)()
-local function DEERWP_fake_script() -- infinitey.color 
+coroutine.wrap(KUIJH_fake_script)()
+local function HMNJ_fake_script() -- infinitey.color 
 	local script = Instance.new('LocalScript', infinitey)
 
 	-- LocalScript inside the TextButton
@@ -2048,16 +2039,16 @@ local function DEERWP_fake_script() -- infinitey.color
 	end)
 	
 end
-coroutine.wrap(DEERWP_fake_script)()
-local function WVLSP_fake_script() -- exware.LocalScript 
+coroutine.wrap(HMNJ_fake_script)()
+local function WQTGIR_fake_script() -- exware.LocalScript 
 	local script = Instance.new('LocalScript', exware)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Tomskix/exware-public/main/loader"))()
 	end)
 end
-coroutine.wrap(WVLSP_fake_script)()
-local function MPKBWU_fake_script() -- exware.color 
+coroutine.wrap(WQTGIR_fake_script)()
+local function ONADKHL_fake_script() -- exware.color 
 	local script = Instance.new('LocalScript', exware)
 
 	-- LocalScript inside the TextButton
@@ -2154,16 +2145,16 @@ local function MPKBWU_fake_script() -- exware.color
 	end)
 	
 end
-coroutine.wrap(MPKBWU_fake_script)()
-local function CKTZZG_fake_script() -- zuremod.LocalScript 
+coroutine.wrap(ONADKHL_fake_script)()
+local function TJTTG_fake_script() -- zuremod.LocalScript 
 	local script = Instance.new('LocalScript', zuremod)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))()
 	end)
 end
-coroutine.wrap(CKTZZG_fake_script)()
-local function EOHW_fake_script() -- zuremod.color 
+coroutine.wrap(TJTTG_fake_script)()
+local function GLQQON_fake_script() -- zuremod.color 
 	local script = Instance.new('LocalScript', zuremod)
 
 	-- LocalScript inside the TextButton
@@ -2260,16 +2251,16 @@ local function EOHW_fake_script() -- zuremod.color
 	end)
 	
 end
-coroutine.wrap(EOHW_fake_script)()
-local function LLDI_fake_script() -- prisonware.LocalScript 
+coroutine.wrap(GLQQON_fake_script)()
+local function EYVEMVY_fake_script() -- prisonware.LocalScript 
 	local script = Instance.new('LocalScript', prisonware)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))()
 	end)
 end
-coroutine.wrap(LLDI_fake_script)()
-local function RXUU_fake_script() -- prisonware.color 
+coroutine.wrap(EYVEMVY_fake_script)()
+local function RHHREIB_fake_script() -- prisonware.color 
 	local script = Instance.new('LocalScript', prisonware)
 
 	-- LocalScript inside the TextButton
@@ -2366,16 +2357,16 @@ local function RXUU_fake_script() -- prisonware.color
 	end)
 	
 end
-coroutine.wrap(RXUU_fake_script)()
-local function ZHKAP_fake_script() -- zbloxfruits.LocalScript 
+coroutine.wrap(RHHREIB_fake_script)()
+local function ZWYEAGZ_fake_script() -- zbloxfruits.LocalScript 
 	local script = Instance.new('LocalScript', zbloxfruits)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))() 
 	end)
 end
-coroutine.wrap(ZHKAP_fake_script)()
-local function IQDIQV_fake_script() -- zbloxfruits.color 
+coroutine.wrap(ZWYEAGZ_fake_script)()
+local function HEMZB_fake_script() -- zbloxfruits.color 
 	local script = Instance.new('LocalScript', zbloxfruits)
 
 	-- LocalScript inside the TextButton
@@ -2472,16 +2463,16 @@ local function IQDIQV_fake_script() -- zbloxfruits.color
 	end)
 	
 end
-coroutine.wrap(IQDIQV_fake_script)()
-local function EEMARQ_fake_script() -- solsrng.LocalScript 
+coroutine.wrap(HEMZB_fake_script)()
+local function IOOI_fake_script() -- solsrng.LocalScript 
 	local script = Instance.new('LocalScript', solsrng)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Looser3itx/Hmmmmmmmmmmmmmmmmmmmmmmmmmmmm/main/loader.lua"))()
 	end)
 end
-coroutine.wrap(EEMARQ_fake_script)()
-local function ZZRPB_fake_script() -- solsrng.color 
+coroutine.wrap(IOOI_fake_script)()
+local function XLLHP_fake_script() -- solsrng.color 
 	local script = Instance.new('LocalScript', solsrng)
 
 	-- LocalScript inside the TextButton
@@ -2578,16 +2569,16 @@ local function ZZRPB_fake_script() -- solsrng.color
 	end)
 	
 end
-coroutine.wrap(ZZRPB_fake_script)()
-local function RXXBPN_fake_script() -- zbuild.LocalScript 
+coroutine.wrap(XLLHP_fake_script)()
+local function KYKZ_fake_script() -- zbuild.LocalScript 
 	local script = Instance.new('LocalScript', zbuild)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Looser3itx/Hmmmmmmmmmmmmmmmmmmmmmmmmmmmm/main/loader.lua"))()
 	end)
 end
-coroutine.wrap(RXXBPN_fake_script)()
-local function RHECIT_fake_script() -- zbuild.color 
+coroutine.wrap(KYKZ_fake_script)()
+local function VHXDHCZ_fake_script() -- zbuild.color 
 	local script = Instance.new('LocalScript', zbuild)
 
 	-- LocalScript inside the TextButton
@@ -2684,16 +2675,16 @@ local function RHECIT_fake_script() -- zbuild.color
 	end)
 	
 end
-coroutine.wrap(RHECIT_fake_script)()
-local function FAVGZ_fake_script() -- cusduels.LocalScript 
+coroutine.wrap(VHXDHCZ_fake_script)()
+local function BEHQVP_fake_script() -- cusduels.LocalScript 
 	local script = Instance.new('LocalScript', cusduels)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))()
 	end)
 end
-coroutine.wrap(FAVGZ_fake_script)()
-local function WSLPJ_fake_script() -- cusduels.color 
+coroutine.wrap(BEHQVP_fake_script)()
+local function OPUF_fake_script() -- cusduels.color 
 	local script = Instance.new('LocalScript', cusduels)
 
 	-- LocalScript inside the TextButton
@@ -2790,16 +2781,16 @@ local function WSLPJ_fake_script() -- cusduels.color
 	end)
 	
 end
-coroutine.wrap(WSLPJ_fake_script)()
-local function WBYYRVF_fake_script() -- nexam.LocalScript 
+coroutine.wrap(OPUF_fake_script)()
+local function SRPE_fake_script() -- nexam.LocalScript 
 	local script = Instance.new('LocalScript', nexam)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5ebefab5c68bfa67271dcbf6430d3c7d.lua"))
 	end)
 end
-coroutine.wrap(WBYYRVF_fake_script)()
-local function QSRHRVR_fake_script() -- nexam.color 
+coroutine.wrap(SRPE_fake_script)()
+local function ESHORHV_fake_script() -- nexam.color 
 	local script = Instance.new('LocalScript', nexam)
 
 	-- LocalScript inside the TextButton
@@ -2896,8 +2887,8 @@ local function QSRHRVR_fake_script() -- nexam.color
 	end)
 	
 end
-coroutine.wrap(QSRHRVR_fake_script)()
-local function UHQEYK_fake_script() -- universal.searchscript 
+coroutine.wrap(ESHORHV_fake_script)()
+local function WVXUDPG_fake_script() -- universal.searchscript 
 	local script = Instance.new('LocalScript', universal)
 
 	local scroll = script.Parent.uniscroll
@@ -2927,8 +2918,8 @@ local function UHQEYK_fake_script() -- universal.searchscript
 		end
 	end)
 end
-coroutine.wrap(UHQEYK_fake_script)()
-local function KAATUU_fake_script() -- atitle.LocalScript 
+coroutine.wrap(WVXUDPG_fake_script)()
+local function RDBKM_fake_script() -- atitle.LocalScript 
 	local script = Instance.new('LocalScript', atitle)
 
 	local text = script.Parent
@@ -2984,8 +2975,8 @@ local function KAATUU_fake_script() -- atitle.LocalScript
 		end
 	end
 end
-coroutine.wrap(KAATUU_fake_script)()
-local function BPVNXMK_fake_script() -- TextLabel_8.LocalScript 
+coroutine.wrap(RDBKM_fake_script)()
+local function AUJMGL_fake_script() -- TextLabel_8.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_8)
 
 	local text = script.Parent
@@ -3041,8 +3032,8 @@ local function BPVNXMK_fake_script() -- TextLabel_8.LocalScript
 		end
 	end
 end
-coroutine.wrap(BPVNXMK_fake_script)()
-local function VZEXEIL_fake_script() -- funbutton.LocalScript 
+coroutine.wrap(AUJMGL_fake_script)()
+local function TVAYPFS_fake_script() -- funbutton.LocalScript 
 	local script = Instance.new('LocalScript', funbutton)
 
 	--// put all of that in a mouse button click function
@@ -3060,8 +3051,8 @@ local function VZEXEIL_fake_script() -- funbutton.LocalScript
 		--                                /\ PUT TAB NAME THERE	
 	end)
 end
-coroutine.wrap(VZEXEIL_fake_script)()
-local function HWCEZ_fake_script() -- funbutton.color 
+coroutine.wrap(TVAYPFS_fake_script)()
+local function SWVM_fake_script() -- funbutton.color 
 	local script = Instance.new('LocalScript', funbutton)
 
 	-- LocalScript inside the TextButton
@@ -3158,8 +3149,8 @@ local function HWCEZ_fake_script() -- funbutton.color
 	end)
 	
 end
-coroutine.wrap(HWCEZ_fake_script)()
-local function UWZNI_fake_script() -- ahomebutton.LocalScript 
+coroutine.wrap(SWVM_fake_script)()
+local function HAEUDCX_fake_script() -- ahomebutton.LocalScript 
 	local script = Instance.new('LocalScript', ahomebutton)
 
 	--// put all of that in a mouse button click function
@@ -3177,8 +3168,8 @@ local function UWZNI_fake_script() -- ahomebutton.LocalScript
 		--                                /\ PUT TAB NAME THERE	
 	end)
 end
-coroutine.wrap(UWZNI_fake_script)()
-local function JVDTMS_fake_script() -- ahomebutton.color 
+coroutine.wrap(HAEUDCX_fake_script)()
+local function HEXRA_fake_script() -- ahomebutton.color 
 	local script = Instance.new('LocalScript', ahomebutton)
 
 	-- LocalScript inside the TextButton
@@ -3275,8 +3266,8 @@ local function JVDTMS_fake_script() -- ahomebutton.color
 	end)
 	
 end
-coroutine.wrap(JVDTMS_fake_script)()
-local function SFHO_fake_script() -- unibutton.LocalScript 
+coroutine.wrap(HEXRA_fake_script)()
+local function XTBVJ_fake_script() -- unibutton.LocalScript 
 	local script = Instance.new('LocalScript', unibutton)
 
 	--// put all of that in a mouse button click function
@@ -3294,8 +3285,8 @@ local function SFHO_fake_script() -- unibutton.LocalScript
 		--                                /\ PUT TAB NAME THERE	
 	end)
 end
-coroutine.wrap(SFHO_fake_script)()
-local function DXPEM_fake_script() -- unibutton.color 
+coroutine.wrap(XTBVJ_fake_script)()
+local function HXLPGA_fake_script() -- unibutton.color 
 	local script = Instance.new('LocalScript', unibutton)
 
 	-- LocalScript inside the TextButton
@@ -3392,8 +3383,8 @@ local function DXPEM_fake_script() -- unibutton.color
 	end)
 	
 end
-coroutine.wrap(DXPEM_fake_script)()
-local function XWUHIGC_fake_script() -- mainhold.drags 
+coroutine.wrap(HXLPGA_fake_script)()
+local function YNQA_fake_script() -- mainhold.drags 
 	local script = Instance.new('LocalScript', mainhold)
 
 	spawn(function()
@@ -3436,8 +3427,8 @@ local function XWUHIGC_fake_script() -- mainhold.drags
 		normal_dragify(script.Parent)
 	end)
 end
-coroutine.wrap(XWUHIGC_fake_script)()
-local function YWDPCHI_fake_script() -- TextLabel_9.LocalScript 
+coroutine.wrap(YNQA_fake_script)()
+local function PNHVQFK_fake_script() -- TextLabel_9.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_9)
 
 	local text = script.Parent
@@ -3493,8 +3484,8 @@ local function YWDPCHI_fake_script() -- TextLabel_9.LocalScript
 		end
 	end
 end
-coroutine.wrap(YWDPCHI_fake_script)()
-local function MRSY_fake_script() -- submit.LocalScript 
+coroutine.wrap(PNHVQFK_fake_script)()
+local function MBZZ_fake_script() -- submit.LocalScript 
 	local script = Instance.new('LocalScript', submit)
 
 	enterkey = script.Parent.Parent.keybox
@@ -3521,8 +3512,8 @@ local function MRSY_fake_script() -- submit.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MRSY_fake_script)()
-local function CPVXHZH_fake_script() -- clipboard.LocalScript 
+coroutine.wrap(MBZZ_fake_script)()
+local function CYZPSB_fake_script() -- clipboard.LocalScript 
 	local script = Instance.new('LocalScript', clipboard)
 
 	-- if this doesn't work, your executor doesnt have a setclipboard function
@@ -3535,12 +3526,12 @@ local function CPVXHZH_fake_script() -- clipboard.LocalScript
 		})
 	end)
 end
-coroutine.wrap(CPVXHZH_fake_script)()
-local function QGUAIV_fake_script() -- exit2.LocalScript 
+coroutine.wrap(CYZPSB_fake_script)()
+local function MGIC_fake_script() -- exit2.LocalScript 
 	local script = Instance.new('LocalScript', exit2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(QGUAIV_fake_script)()
+coroutine.wrap(MGIC_fake_script)()
